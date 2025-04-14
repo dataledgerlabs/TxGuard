@@ -24,7 +24,7 @@ Introduce predictive analytics for anomaly detection and trend forecasting, enha
 {% endstep %}
 {% endstepper %}
 
-TxGuard taps into a USD 2.89 billion blockchain analytics market within the USD 57.72 billion global blockchain technology market in 2025, with a projected CAGR of 90.1% through 2030 ([Grand View Research, 2024]([https://app.gitbook.com/s/zJcrELTuR6LYnt3R4Edw/](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)). Qubic’s quorum-based computation and tick system process up to 55 million transactions per second ([The Qubic Team, 2024]([https://app.gitbook.com/s/zJcrELTuR6LYnt3R4Edw/](https://qubic.org/blog-detail/qubic-achieves-over-55-million-transfers-per-second-for-smart-contract-executions)), positioning TxGuard as a first-mover in an underserved ecosystem.&#x20;
+TxGuard taps into a USD 2.89 billion blockchain analytics market within the USD 57.72 billion global blockchain technology market in 2025, with a projected CAGR of 90.1% through 2030 ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)). Qubic’s quorum-based computation and tick system process up to 55 million transactions per second ([The Qubic Team, 2024](https://qubic.org/blog-detail/qubic-achieves-over-55-million-transfers-per-second-for-smart-contract-executions)), positioning TxGuard as a first-mover in an underserved ecosystem.&#x20;
 
 ***
 
