@@ -4,6 +4,8 @@
 
 > RFP by DataLedgerLabs (Smashing Blocks)
 
+***
+
 ### Executive Summary
 
 The financial landscape has evolved—clients now wield blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviours while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs**, presents **TxGuard**, a Business-to-Intelligence Artificial (**B2IA**) solution designed for traditional and non-traditional financial entities. The solution is planned to be build on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain,** ensuring compliance with AML and KYT standards.
