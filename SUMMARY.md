@@ -1,3 +1,3 @@
 # Table of contents
 
-* [TxGuard](README.md)
+* [Request for Proposal](README.md)
