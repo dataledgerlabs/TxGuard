@@ -390,7 +390,7 @@ The blockchain analytics landscape is competitive, with several established play
 - **Qubic Ecosystem Focus**  
   **TxGuard** provides a first-mover advantage in the Qubic ecosystem, a rapidly evolving but currently under-analyzed blockchain platform capable of processing over 55 million smart contract executions per second.
 - **Cost Efficiency**  
-  While platforms like Chainalysis offer potent features, their enterprise pricing may be out of reach for smaller institutions. **TxGuard** introduces a flexible tiered model that scales with institutional size and needs ([Chainalysis Pricing, 2025]).
+  While platforms like Chainalysis offer potent features, their enterprise pricing may be out of reach for smaller institutions.
 
 <br>
 
@@ -507,7 +507,7 @@ This section provides a high-level breakdown of the estimated effort and cost re
 | - Peer Review                                                   | • Code audit and review                                                       | 3 days                |
 | <span style="color:#124C89">**3. Descriptive Analytics Engine** |                                                                               | **42 days**           |
 | - Prospection                                                   | • Identify KPIs <br>• Semantic tagging options <br>• Query capabilities       | 4 days                |
-| - Analytical Logic Implementation                               | • Historical metrics <br>• Address behaviors                                  | 10 days               |
+| - Analytical Logic Implementation                               | • Historical metrics <br>• Addressiors                                  | 10 days               |
 | - Semantic Modeling                                             | • Labeling clusters <br>• Feature engineering                                 | 6 days                |
 | - Dashboard Configuration                                       | • Streamlit dashboard setup                                                   | 6 days                |
 | - Unit Tests                                                    | • Validation of KPIs and metrics                                              | 6 days                |
