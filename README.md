@@ -390,7 +390,7 @@ The blockchain analytics landscape is competitive, with several established play
 - **Qubic Ecosystem Focus**  
   **TxGuard** provides a first-mover advantage in the Qubic ecosystem, a rapidly evolving but currently under-analyzed blockchain platform capable of processing over 55 million smart contract executions per second.
 - **Cost Efficiency**  
-  While platforms like Chainalysis offer potent features, their enterprise pricing may be out of reach for smaller institutions. **TxGuard** introduces a flexible tiered model that scales with institutional size and needs ([Chainalysis Pricing, 2025]).
+  While platforms like Chainalysis offer potent features, their enterprise pricing may be out of reach for smaller institutions.
 
 <br>
 
@@ -507,7 +507,7 @@ This section provides a high-level breakdown of the estimated effort and cost re
 | - Peer Review                                                   | • Code audit and review                                                       | 3 days                |
 | <span style="color:#124C89">**3. Descriptive Analytics Engine** |                                                                               | **42 days**           |
 | - Prospection                                                   | • Identify KPIs <br>• Semantic tagging options <br>• Query capabilities       | 4 days                |
-| - Analytical Logic Implementation                               | • Historical metrics <br>• Address behaviors                                  | 10 days               |
+| - Analytical Logic Implementation                               | • Historical metrics <br>• Addressiors                                  | 10 days               |
 | - Semantic Modeling                                             | • Labeling clusters <br>• Feature engineering                                 | 6 days                |
 | - Dashboard Configuration                                       | • Streamlit dashboard setup                                                   | 6 days                |
 | - Unit Tests                                                    | • Validation of KPIs and metrics                                              | 6 days                |
@@ -607,66 +607,24 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 - **Scenario**: Queries, “List the top 5 active wallets this month.”
 - **Outcome**: Ranked list of wallet addresses with associated activity metrics is returned.
 
-#### **Use Case 4: Transaction Monitoring and Pattern Detection**
-
-- **Actor**: Compliance Officer
-- **Scenario**: Investigates high-frequency transactions across ticks.
-- **Outcome**: Heatmaps and pattern recognition visuals highlight unusual clusters and flows.
-
-#### **Use Case 5: Customer Risk Profiling**
-
-- **Actor**: Risk Analyst
-- **Scenario**: Inputs a blockchain identity to assess credit eligibility.
-- **Outcome**: Risk score is returned based on transaction history and behavioral patterns.
-
-#### **Use Case 6: Asset Tracing**
-
-- **Actor**: Investigator
-- **Scenario**: Needs to track the origin of funds received by a suspicious address.
-- **Outcome**: A transaction graph shows the complete inbound tick path across identities.
-
-#### **Use Case 7: Regulatory Reporting**
-
-- **Actor**: Compliance Team
-- **Scenario**: Prepares a quarterly AML/KYT report.
-- **Outcome**: Auto-generated, exportable reports with key KPIs and customizable filters.
-
-#### **Use Case 8: Fraud Detection via Identity Mapping**
-
-- **Actor**: Fraud Investigator
-- **Scenario**: Investigates a scam alert on a specific address.
-- **Outcome**: A graph of identity relationships surfaces potential laundering or scam clusters.
-
 ### <span style="color:#124C89">Phase 2: Acceleration – Predictive Analytics for AML & KYT</span>
 
-#### **Use Case 9: Compliance Policy Enforcement**
+#### **Use Case 4: Compliance Policy Enforcement**
 
 - **Actor**: Compliance Officer
 - **Scenario**: Creates custom rules to flag deviations in transaction behavior.
 - **Outcome**: The system auto-escalates violations and logs actions taken.
 
-#### **Use Case 10: Predictive Transaction Risk Scoring**
+#### **Use Case 5: Predictive Transaction Risk Scoring**
 
 - **Actor**: AML Analyst
 - **Scenario**: Evaluates transactions in real-time to identify pre-confirmation risks.
 - **Outcome**: Transactions with high predicted risk are intercepted and flagged.
 
-#### **Use Case 11: Anomaly Detection and Early Warnings**
+#### **Use Case 6: Anomaly Detection and Early Warnings**
 
 - **Actor**: Fraud Prevention Team
 - **Scenario**: Requests proactive alerts for unusual transaction spikes or patterns.
 - **Outcome**: ML models identify and surface early fraud indicators.
-
-#### **Use Case 12: Customer Behavior Forecasting**
-
-- **Actor**: Relationship Manager
-- **Scenario**: Seeks to anticipate changes in behavior among top-tier clients.
-- **Outcome**: Predictive models reveal likely changes in trading activity or token movement.
-
-#### **Use Case 13: Money Laundering Network Analysis**
-
-- **Actor**: AML Team
-- **Scenario**: Maps high-risk activity across connected wallets.
-- **Outcome**: Machine learning detects and visualizes illicit clusters with scoring metrics.
 
 <br><br><br>
