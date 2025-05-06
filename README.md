@@ -22,6 +22,7 @@
 - [XV. Budget Estimation](#xv-budget-estimation)
 - [XVI. Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
 - [XVII. Use Cases](#xvii-use-cases)
+- [XVIII. Annex](#xviii-annex)
 
 ---
 
@@ -29,20 +30,19 @@
 
 The financial landscape has evolved—clients now use blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviors while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs** presents **TxGuard**, a comprehensive Business-to-Intelligence Artificial (**B2IA**) solution designed for traditional and non-traditional financial entities. The solution is planned to be built on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain**, ensuring compliance with AML and KYT requirements.
 
-This Request for Proposal (RFP) outlines a two-phase deployment strategy that is designed to ensure a smooth and effective implementation of TxGuard, maximizing its benefits for users and stakeholders.
+TxGuard is structured as a two-phase deployment strategy that maximizes scalability, reduces risk, and ensures rapid value delivery:
 
-1.  **Phase 1 (Incubation, 8–12 months)**  
-    Extract, curate, assemble descriptive analytic and exposed **Qubic** tick data, provide data value, and enable natural language querying for seamless access.
-2.  **Phase 2 (Acceleration)**  
-    Introduce predictive analytics for anomaly detection and trend forecasting, enhancing decision-making and compliance efforts.
+- Phase 1: Incubation – This phase, which is the focus of the present RFP, concentrates on data extraction, semantic curation, descriptive analytics, and natural language exposure of Qubic’s tick-level data. It is designed to provide immediate data value and enable intuitive interaction with blockchain datasets via natural language queries, without requiring a user-facing UI.
 
-**TxGuard** taps into a USD 2.89 billion blockchain analytics market within the USD 57.72 billion global blockchain technology market in 2025, with a projected CAGR of 90.1% through 2030 ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)). Qubic’s quorum-based computation and tick system processes up to 55 million transactions per second ([The Qubic Team, 2024](https://qubic.org/blog-detail/qubic-achieves-over-55-million-transfers-per-second-for-smart-contract-executions)), positioning **TxGuard** as a first-mover in an underserved ecosystem. The potential impact of this solution is significant, offering a unique opportunity to be at the forefront of blockchain compliance.
+- Phase 2: Acceleration – Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
+
+The total implementation time for Phase 1 is estimated at one year, with a staffing level of approximately 1.2 Full-Time Equivalents (FTE). Budget planning for this phase follows the P10 (best-case) scenario—an intentionally lean estimate that ensures early feasibility and minimizes risk exposure in the budgeting cycle. Full cost and time allocations are detailed in the XVI. [XVI. Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
 
 <br>
 
 # <span style="color:#198110">I. Pain Point Addressed</span>
 
-The rules have changed: clients are no longer defined solely by bank accounts—they now possess blockchain identities that reflect their decentralized financial activities. Financial entities face a critical challenge: how can they understand these identities while ensuring compliance with AML and KYT regulations? **TxGuard** addresses this pain point by:
+The rules have changed: clients are no longer defined solely by bank accounts—they now possess blockchain identities that reflect their decentralized financial activities. Financial institutions face a critical challenge in adapting their tools and processes to understand these new identities while maintaining compliance with AML and KYT regulations. This is where TxGuard steps in to support the transition by:
 
 - Providing a comprehensive view of **financial behavior on the Qubic blockchain**.
 - Transforming complex, anonymous data into clear, **actionable insights**.
@@ -74,7 +74,11 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 <span style="color:#124C89">**Value Proposition**</span>
 
-**TxGuard** empowers Qubic's owner identities and financial entities with blockchain intelligence, addressing fraud prevention and market insight needs in a growing analytics market valued at USD 2.89 billion in 2025, within a global blockchain market projected at USD 57.72 billion ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)). Starting with **Qubic**, the platform provides a first-mover advantage with scalability toward broader blockchain networks ([101blockchains.com, 2025](https://101blockchains.com/top-blockchain-analytics-companies/)).
+**TxGuard** empowers Qubic's owner identities and financial entities with blockchain intelligence, addressing fraud prevention and market insight needs in a growing analytics market valued at USD 2.89 billion in 2025, within a global blockchain market projected at USD 57.72 billion ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)).
+
+Leveraging Qubic, which processes up to 55 million transactions per second (The Qubic Team, 2024), TxGuard positions itself as a first-mover in an underserved ecosystem. The platform offers a strategic advantage with the scalability to extend across wider blockchain networks (101blockchains.com, 2025).
+
+The potential impact of this solution is substantial, presenting a unique opportunity to lead the next generation of blockchain compliance and intelligence.
 
 <br>
 
@@ -88,9 +92,10 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 - **Target Users**: Qubic´s owner identity, financial entities, compliance officers, risk managers, and investment strategists seeking actionable blockchain insights.
 
-## <span style="color:#124C89">1. Scope</span>
+## <span style="color:#124C89">1. Scope Phase 1</span>
 
 - **Tick Data Extraction & Curation**: Extract Qubic tick data (e.g., transaction logs) and curate it for accuracy and relevance.
+
 - **Natural Language Interface**: Enable intuitive querying of tick data in plain language (English).
 
 - **Descriptive Analytics Engine**: Compute metrics like transaction volume and frequency for **_Phase 1_** insights.
@@ -100,12 +105,6 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 - **Integration Capabilities**: Provide a system for syncing with existing systems.
 
 - **Documentation & Training**: Supply comprehensive user guides and training sessions.
-
-- **User Management & Access Control for Phase 2**: Leverage Qubic address-based identity with role-based permissions**_._**
-
-- **Future-Proofing for Phase 2**: Design architecture to support predictive analytics scalability.
-
-- **Compliance Features for Phase 2**: Plan for AML/KYT checks and reporting capabilities.
 
 <br>
 
@@ -120,7 +119,7 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 # <span style="color:#198110">IV. Global Functionality and Building Strategy</span>
 
-TxGuard’s development is strategically divided into Phase 1 (Incubation) and Phase 2 (Acceleration) to ensure a structured, efficient, and risk-mitigated approach. The high-level functionality is described below:
+As previously mentioned, TxGuard’s development is strategically divided into two phases to ensure a structured, efficient, and risk-mitigated approach. The high-level functionality of Phase 1 is outlined below:
 
 ## <span style="color:#124C89">Phase 1: Incubation (8–12 Months)</span>
 
@@ -133,7 +132,9 @@ TxGuard’s development is strategically divided into Phase 1 (Incubation) and P
 - **Descriptive Analytics Engine**  
   Processes curated data to generate key metrics and behavioral patterns relevant to use cases such as transaction monitoring, risk analysis, and customer profiling.
 - **Exposure**  
-  Develops and configures MCPs (Multi-Component Pipelines) and intelligent agents to interpret and respond to user queries in natural language.
+  Develops and configures MCPs (Multi-Component Pipelines) and intelligent agents capable of interpreting and responding to user queries in natural language. Rather than building a traditional user-facing frontend, the system will leverage the interface of the integrated Large Language Model (LLM) to enable direct querying of the platform’s database. This approach provides immediate utility while keeping the focus on core intelligence and data capabilities.
+
+These components work cohesively to deliver reliable, explainable, and structured financial intelligence from decentralized blockchain data.
 
 <br>
 
@@ -142,26 +143,14 @@ TxGuard’s development is strategically divided into Phase 1 (Incubation) and P
 <br>
 
 > **Out of Scope**:  
-> Full UI/UX design, external security audits, and third-party platform integrations
-
-These components work cohesively to deliver reliable, explainable, and structured financial intelligence from decentralized blockchain data. As outlined in previous sections, **predictive modelling, risk scoring, and advanced user role functionalities are planned for Phase 2**.
-
-## <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
-
-**Objective**: Augment **TxGuard** with predictive analytics to enhance compliance workflows and risk management.
-**Key Activities**:
-
-- Train machine learning models for anomaly detection and trend forecasting
-- Integrate AML/KYT compliance automation features
-- Validate the accuracy and performance of insights generated by the models
+> Full UI/UX design, external security audits, and third-party platform integrations.
+> As outlined in previous sections, **predictive modelling, risk scoring, and advanced user role functionalities are planned for Phase 2**.
 
 The diagram below illustrates a simplified schematic of the overall process:
 
 <br>
 
 ![OverviewTxGuard](https://github.com/user-attachments/assets/aae1f372-ead1-4fa8-afd9-a3d338b3f8a7)
-
-<br>
 
 # <span style="color:#198110">V. Inputs and Outputs</span>
 
@@ -178,11 +167,6 @@ The diagram below illustrates a simplified schematic of the overall process:
   - Preferred output formats
   - Security guardrails and filters
 
-### **Phase 2: Predictive Analytics**
-
-- **Client Data**: Identity-linked Know Your Customer (KYC) information
-- **Regulatory Rules**: AML/KYT standards, thresholds, and custom flags
-
 ## <span style="color:#124C89">2. Outputs</span>
 
 ### **Phase 1: Descriptive Results**
@@ -190,12 +174,6 @@ The diagram below illustrates a simplified schematic of the overall process:
 - **Transaction Insights**: Summaries and key metrics (e.g., transaction volume, frequency, address activity)
 - **Query Responses**: Structured results (e.g., tabular, JSON) aligned with user prompts
 - **Audit Logs**: Logs capturing user activity and access for traceability
-
-### **Phase 2: Predictive Outcomes**
-
-- **Risk Scores**: Near real-time assessments of identity and transaction risk levels
-- **Anomaly Alerts**: Notifications driven by machine learning for suspicious patterns
-- **Model Metrics**: Confidence intervals, accuracy scores, and false positive rates
 
 <br>
 
@@ -212,22 +190,12 @@ The diagram below illustrates a simplified schematic of the overall process:
 - **FR3**: Enable retrieval of historical transaction data over user-defined timeframes and between Qubic identities
 - **FR4**: Implement data analytics and a natural language query interface (English support)
 - **FR5**: Output structured query responses (e.g., JSON, tables)
-- **FR6** (_Phase 2_): Develop customizable risk scoring algorithms using transaction frequency, volume, and network behaviour
-- **FR7** (_Phase 2_): Generate entity profiles based on behavioural patterns and links to high-risk addresses
-- **FR8** (_Phase 2_): Deploy ML models to detect risk and anomalies, achieving ≥90% accuracy in transaction risk classification
-- **FR12** (_Phase 2_): Implement role-based access control (RBAC) linked to Qubic identities and subscription tiers (Basic, Optimal, Comprehensive)
 
 ## <span style="color:#124C89">2. Non-Functional Requirements</span>
 
 - **NFR1**: Support >100 concurrent users; return 75% of query responses in under 10 seconds
 - **NFR2**: Ensure data integrity via validation, duplication checks, and error handling
 - **NFR3**: Modular system architecture with comprehensive documentation and CI/CD readiness
-- **NFR4** (_Phase 2_): Enable horizontal scalability using AWS auto-scaling services
-- **NFR5** (_Phase 2_): Guarantee 90% system uptime (~<1 hour downtime/year) through fault-tolerant architecture
-- **NFR6** (_Phase 2_): Ensure interoperability with external financial entities via structured formats
-- **NFR7** (_Phase 2_): Comply with GDPR and other privacy regulations; implement audit logging and secure data deletion
-- **NFR8** (_Phase 2_): Design an accessible UI compliant with WCAG 2.1, targeting non-technical users
-- **NFR9** (_Phase 2_): Enforce encryption in transit and at rest; comply with PCI DSS and ISO 27001; conduct security audits and enforce key management protocols
 
 <br>
 
@@ -275,61 +243,23 @@ This architecture supports:
   - _Target_: < 10 seconds for 90% of transactions
 - **Data Accuracy**: Percentage of tick data accurately ingested and processed
   - _Target_: ≥ 99.999%
-- **Query Response Time** (_Phase 2_): Time to return NLP-based query results
-  - _Target_: < 10 seconds for 85% of user prompts
-- **System Uptime and Reliability** (_Phase 2_):
-  - _Target_: ≥ 90% uptime (no more than 3 hours of downtime annually)
 
 ### <span style="color:#124C89">2. User Adoption and Satisfaction Metrics</span>
 
-- **User Adoption Rate**: Percentage of financial entity users actively engaged
-  - _Target_: ≥ 80% within 6 months of deployment
 - **User Satisfaction Score**: Overall satisfaction on a 1–10 scale
   - _Target_: ≥ 7.5
 - **Feature Utilization Rate**: Percentage of features used monthly
   - _Target_: ≥ 70% of features used at least once per month
 
-### <span style="color:#124C89">3. Compliance and Risk Management Metrics (_Phase 2_)</span>
-
-- **Alert Accuracy**: Validated alerts vs. false positives
-  - _Target_: ≥ 70%
-- **Risk Detection Speed**: Time to flag high-risk activity
-  - _Target_: < 1 minute
-- **Regulatory Reporting Efficiency**: Time saved in generating compliance reports
-  - _Target_: 50% reduction compared to manual workflows
-- **Compliance Coverage**: AML/KYT requirements addressed
-  - _Target_: 100% regulatory alignment (e.g., FINTRAC, FATF)
-
-### <span style="color:#124C89">4. Business Impact Metrics</span>
-
-- **Revenue Protection (_Phase 2_)**: Value of fraud prevented
-  - _Target_: ≥ 70% of flagged fraudulent activity intercepted
-- **Efficiency Improvement (_Phase 2_)**: Reduction in time spent on compliance tasks
-  - _Target_: ≥ 60%
-- **API Performance**: Response time and throughput
-  - _Target_: < 100 ms for 95% of API calls
-
-### <span style="color:#124C89">5. Security and Compliance Metrics</span>
-
-- **Security Incident Rate (_Phase 2_)**: Successful breaches or unauthorized access attempts
-  - _Target_: 0 incidents per year
-- **Audit Compliance (_Phase 2_)**: Coverage of internal and external audit requirements
-  - _Target_: 100%
-
-### <span style="color:#124C89">6. Innovation and Improvement Metrics</span>
-
-- **Feature Development Velocity**: Major feature releases
-  - _Target_: ≥ 2 per year
-- **Model Accuracy Improvement (_Phase 2_)**: Predictive model performance over time
-  - _Target_: +5% per quarter
-- **User Feedback Implementation (_Phase 2_)**: Suggestions implemented from user base
-  - _Target_: ≥ 25% of viable feedback delivered within 6 months
-
 <br>
 
 # <span style="color:#198110">IX. Business Model</span>
 
-**TxGuard’s** performance and business success will be continuously assessed using a defined set of metrics and key performance indicators (KPIs). These metrics will include system responsiveness, user satisfaction, compliance impact, and predictive capability, ensuring both technical rigour and organizational alignment across **Phase 1** and **Phase 2**.
+TxGuard’s performance and business success will be measured through a defined set of metrics and key performance indicators (KPIs), including system responsiveness, user satisfaction, compliance impact, and predictive capabilities. These metrics ensure both technical rigor and strategic alignment across the development roadmap—spanning Phase 1 and the more commercially oriented Phase 2.
+
+As this RFP pertains exclusively to Phase 1, the platform will not include a user-facing UX/UI layer. Instead, interaction will be facilitated via a natural language interface powered by a Large Language Model (LLM), enabling database queries without a traditional frontend.
+
+Formal subscription tiers will be introduced in Phase 2, where a fully featured product—starting with a beta version of the Basic Tier—will be released to early users for testing and feedback. ---------> Como lo hacemos pa no pagar nosotros las consultas?
 
 ### <span style="color:#124C89">Subscription Tiers</span>
 
@@ -479,66 +409,80 @@ Javier brings a decade of experience in regulated sectors such as finance and ph
 
 # <span style="color:#198110">XV. Budget Estimation</span>
 
-This section provides a high-level breakdown of the estimated effort and cost required to implement **Phase 1** of the TxGuard platform. The estimates cover all functional stages—**Collection**, **Curation**, **Analytics**, and **Exposure**—including infrastructure, development, deployment, and testing.
+This section outlines a high-level breakdown of the estimated effort and associated costs required to implement Phase 1. The estimates cover the this RFP report and all major functional stages—Collection, Curation, Descriptive Analytics, and Exposure—and include infrastructure setup, core development, deployment, documentation, and testing activities.
+
+The project planning and timelines are presented using the P50 (baseline) scenario, which reflects a realistic balance between optimistic and conservative assumptions regarding development velocity and resource availability. The P10 scenario represents a more conservative approach, which will be the selected budget on this RFP.
+
+This approach allows the team to demonstrate feasibility within a lean resource model while maintaining flexibility to scale if necessary. Presenting the budget through the P10 lens ensures financial efficiency for early-stage planning and facilitates quicker approval by minimizing initial funding requirements, without compromising the integrity of the technical roadmap.
 
 ### <span style="color:#124C89">Development Effort by Phase and Task</span>
 
 <br>
 
-| **Phase / Task**                                                | Subtasks                                                                      | Estimated Time (days) |
-| --------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------- |
-| <span style="color:#124C89">**1. Collection**                   |                                                                               | **50 days**           |
-| - Prospection                                                   | • Node access validation <br>• Tick log inspection <br>• Data sync validation | 4 days                |
-| - Development                                                   | • Service development (Node.js)                                               | 14 days               |
-| - Architecture Setup                                            | • VM/containers <br>• Network config <br>• Load balancing                     | 6 days                |
-| - Deployment                                                    | • Implementation <br>• Resilience <br>• Testing                               | 6 days                |
-| - Originarium DB Setup                                          | • PostgreSQL <br>• Network config <br>• Load balancing                        | 8 days                |
-| - Unit Tests                                                    | • Development and execution                                                   | 4 days                |
-| - Documentation                                                 | • Technical write-ups <br>• Usage guides <br>• Architecture diagrams          | 5 days                |
-| - Peer Review                                                   | • Code review by second engineer                                              | 3 days                |
-| <span style="color:#124C89">**2. Curation**                     |                                                                               | **52 days**           |
-| - Prospection                                                   | • Schema audit <br>• Data type mapping <br>• Semantics pre-validation         | 4 days                |
-| - Development                                                   | • Service (Node.js/Go/Rust)                                                   | 16 days               |
-| - Architecture Setup                                            | • VM/containers <br>• Network config <br>• Load balancing                     | 6 days                |
-| - Deployment                                                    | • Implementation <br>• Resilience <br>• Testing                               | 6 days                |
-| - Semantide DB Setup                                            | • PostgreSQL <br>• Schema design <br>• Balancing                              | 8 days                |
-| - Unit Tests                                                    | • Development and execution                                                   | 4 days                |
-| - Documentation                                                 | • Data structure notes <br>• Transformation flows                             | 5 days                |
-| - Peer Review                                                   | • Code audit and review                                                       | 3 days                |
-| <span style="color:#124C89">**3. Descriptive Analytics Engine** |                                                                               | **42 days**           |
-| - Prospection                                                   | • Identify KPIs <br>• Semantic tagging options <br>• Query capabilities       | 4 days                |
-| - Analytical Logic Implementation                               | • Historical metrics <br>• Addressiors                                  | 10 days               |
-| - Semantic Modeling                                             | • Labeling clusters <br>• Feature engineering                                 | 6 days                |
-| - Dashboard Configuration                                       | • Streamlit dashboard setup                                                   | 6 days                |
-| - Unit Tests                                                    | • Validation of KPIs and metrics                                              | 6 days                |
-| - Documentation                                                 | • Queries mapping <br>• Metrics catalog                                       | 5 days                |
-| - Peer Review                                                   | • Review analytical functions                                                 | 3 days                |
-| <span style="color:#124C89">**4. Exposure**                     |                                                                               | **50 days**           |
-| - Prospection                                                   | • NLP agent scope definition <br>• Prompt engineering evaluation              | 4 days                |
-| - Setup & Development                                           | • MCP setup <br>• Guard prompting agent logic                                 | 20 days               |
-| - Deployment                                                    | • Logs <br>• Alert integrations <br>• Testing                                 | 10 days               |
-| - Unit Tests                                                    | • Testing response and access logs                                            | 6 days                |
-| - Documentation                                                 | • NLP flows <br>• User query examples <br>• Permission logic                  | 5 days                |
-| - Peer Review                                                   | • Prompt engine and access validation                                         | 3 days                |
-| <span style="color:#124C89">**TOTAL ESTIMATED (Phase 1)**       |                                                                               | **194 days**          |
+| **Phase / Task**                                                       | Subtasks                                                                      | Estimated Time (weeks) |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------- |
+| <span style="color:#124C89">**0. RFP Preparation**</span>              |                                                                               | **1 week**             |
+| - Documentation & Planning                                             | • Build the RFP draft for Qubic <br>• Project scoping                         | 1 week                 |
+| - Repository & Project Setup                                           | • Create base repo <br>• Dev environment bootstrap                            | Included above         |
+| <span style="color:#124C89">**1. Collection**</span>                   |                                                                               | **11 weeks**           |
+| - Prospection                                                          | • Node access validation <br>• Tick log inspection <br>• Data sync validation | 1 week                 |
+| - Development                                                          | • Service development (Node.js)                                               | 2 weeks                |
+| - Architecture Setup                                                   | • VM/containers <br>• Network config <br>• Load balancing                     | 1 weeks                |
+| - Deployment                                                           | • Implementation <br>• Resilience <br>• Testing                               | 2 weeks                |
+| - Originarium DB Setup                                                 | • PostgreSQL <br>• Network config <br>• Load balancing                        | 2 weeks                |
+| - Unit Tests                                                           | • Development and execution                                                   | 1 week                 |
+| - Documentation                                                        | • Technical write-ups <br>• Usage guides <br>• Architecture diagrams          | 0.5 week               |
+| - Peer Review                                                          | • Code review by second engineer                                              | 0.5 week               |
+| - **Iteration Phase with Qubic Team**                                  | • Review & approval to proceed                                                | 1 week                 |
+| <span style="color:#124C89">**2. Curation**</span>                     |                                                                               | **11 weeks**           |
+| - Prospection                                                          | • Schema audit <br>• Data type mapping <br>• Semantics pre-validation         | 1 week                 |
+| - Development                                                          | • Service (Node.js/Go/Rust)                                                   | 2 weeks                |
+| - Architecture Setup                                                   | • VM/containers <br>• Network config <br>• Load balancing                     | 1 weeks                |
+| - Deployment                                                           | • Implementation <br>• Resilience <br>• Testing                               | 2 weeks                |
+| - Semantide DB Setup                                                   | • PostgreSQL <br>• Schema design <br>• Load balancing                         | 2 weeks                |
+| - Unit Tests                                                           | • Development and execution                                                   | 1 week                 |
+| - Documentation                                                        | • Data structure notes <br>• Transformation flows                             | 0.5 week               |
+| - Peer Review                                                          | • Code audit and review                                                       | 0.5 week               |
+| - **Iteration Phase with Qubic Team**                                  | • Feedback and approval to proceed                                            | 1 week                 |
+| <span style="color:#124C89">**3. Descriptive Analytics Engine**</span> |                                                                               | **8 weeks**            |
+| - Prospection                                                          | • Identify KPIs <br>• Semantic tagging options <br>• Query capabilities       | 1 week                 |
+| - Analytical Logic Implementation                                      | • Historical metrics <br>• Address behaviors                                  | 2 weeks                |
+| - Semantic Modeling                                                    | • Labeling clusters <br>• Feature engineering                                 | 2 weeks                |
+| - Unit Tests                                                           | • Validation of KPIs and metrics                                              | 1 weeks                |
+| - Documentation                                                        | • Queries mapping <br>• Metrics catalog                                       | 0.5 week               |
+| - Peer Review                                                          | • Review analytical functions                                                 | 0.5 week               |
+| - **Iteration Phase with Qubic Team**                                  | • Feedback and green light to proceed                                         | 1 week                 |
+| <span style="color:#124C89">**4. Exposure**</span>                     |                                                                               | **10 weeks**           |
+| - Prospection                                                          | • NLP agent scope definition <br>• Prompt engineering evaluation              | 1 week                 |
+| - Setup & Development                                                  | • MCP setup <br>• Guard prompting agent logic                                 | 2 weeks                |
+| - Deployment                                                           | • Logs <br>• Alert integrations <br>• Testing                                 | 2 weeks                |
+| - Friend and Family Interaction                                        | • Review and revise feedback                                                  | 2 week                 |
+| - Unit Tests                                                           | • Testing response and access logs                                            | 1 weeks                |
+| - Documentation                                                        | • NLP flows <br>• User query examples <br>• Permission logic                  | 0.5 week               |
+| - Peer Review                                                          | • Prompt engine and access validation                                         | 0.5 week               |
+| - **Iteration Phase with Qubic Team**                                  | • Final feedback and handoff                                                  | 1 week                 |
+
+| <span style="color:#124C89">**TOTAL ESTIMATED (Phase 1)**</span> | | **37 weeks** + 4 weeks for reviewing |
+
+> Note: The week allocated to the Iteration Phase with Qubic Team is included in the total project duration of 41 weeks but is excluded from resource allocation calculations. This phase serves as a dedicated period for review, feedback, and approval by the Qubic team.
 
 <br>
 
 ### <span style="color:#124C89">Effort Scenarios and Resource Allocation</span>
 
-The total availability of the core team working on TxGuard is structured around a combined capacity of 1.2 Full-Time Equivalents (FTEs). This allocation is distributed among four team members: one person is assigned 60% of their time, while the other three are each assigned 20%. An FTE represents one person working full-time, which typically means 8 hours a day, 5 days a week. Therefore, a capacity of 1.2 FTEs reflects the combined effort of 1.2 full-time team members over the project's timeline. This configuration allows for focused parallel development while ensuring cross-functional input across architecture, data science, engineering, and compliance. All timeline and workload estimates, including the 199.5 FTE days in the P10 scenario, are based on this available capacity.
+The total availability of the core team working on TxGuard is structured around a combined capacity of 1.2 Full-Time Equivalents (FTEs). This allocation is distributed among four team members: one person is assigned 60% of their time, while the other three are each assigned 20%. An FTE represents one person working full-time, which typically means 8 hours a day, 5 days a week. Therefore, a capacity of 1.2 FTEs reflects the combined effort of 1.2 full-time team members over the project's timeline. This configuration allows for focused parallel development while ensuring cross-functional input across architecture, data science, engineering, and compliance. All timeline and workload estimates, including the 252 FTE days in the P10 scenario, are based on this available capacity.
 
 To address variability in effort and delivery, three risk-based scenarios are projected:
 
-- **P10 (Optimistic)**: 175 days
-- **P50 (Baseline)**: 194 days
-- **P90 (Conservative)**: 213 days
+- **P10 (Optimistic)**: 33 weeks
+- **P50 (Baseline)**: 37 weeks
+- **P90 (Conservative)**: 41 weeks
 
-| Scenario | Duration (days) | Jose | Javi | Andrés | Jacky | Total FTE Days |
-| -------- | --------------- | ---- | ---- | ------ | ----- | -------------- |
-| P10      | 175             | 57%  | 19%  | 19%    | 19%   | 199.5          |
-| P50      | 194             | 60%  | 20%  | 20%    | 20%   | 232.8          |
-| P90      | 213             | 63%  | 21%  | 21%    | 21%   | 268.3          |
+| Scenario | Duration (weeks) | Jose | Javi | Andrés | Jacky | Total FTE Days |
+| -------- | ---------------- | ---- | ---- | ------ | ----- | -------------- |
+| P10      | 33               | 57%  | 19%  | 19%    | 19%   | 166            |
+| P50      | 37               | 60%  | 20%  | 20%    | 20%   | 185            |
+| P90      | 41               | 63%  | 21%  | 21%    | 21%   | 204            |
 
 <br>
 
@@ -546,46 +490,46 @@ To address variability in effort and delivery, three risk-based scenarios are pr
 
 Developer daily rates were benchmarked from Western Europe ([Arc.dev, 2024](https://arc.dev/salaries?location=spain) and [Satatic DevitJobs](https://static.devitjobs.com/market-reports/European-Transparent-IT-Job-Market-Report-2024.pdf?utm_source=chatgpt.com)):
 
-- **P10 (Best Case)**: $150/day
+- **P10 (Best Case)**: $125/day
 - **P50 (Realistic Case)**: $300/day
 - **P90 (Worst Case)**: $450/day
 
-| Category                      | % Allocation | P10 Budget (USD) | P50 Budget (USD) | P90 Budget (USD) |
-| ----------------------------- | ------------ | ---------------- | ---------------- | ---------------- |
-| Architecture & Infrastructure | 15%          | $3,750           | $10,476          | $18,110          |
-| Core Development              | 35%          | $8,750           | $24,444          | $42,257          |
-| Documentation & QA            | 10%          | $2,500           | $6,984           | $12,074          |
-| Peer Review & Governance      | 7%           | $1,750           | $4,889           | $8,452           |
-| Project Management            | 9%           | $2,250           | $9,079           | $15,695          |
-| Marketing & Community         | 7%           | $1,750           | $6,984           | $12,074          |
-| Contingency                   | 7%           | $1,750           | $6,984           | $12,074          |
-| **Total**                     | **100%**     | **$25,000**      | **$69,840**      | **$120,735**     |
+### Phase-Based Effort and Cost Estimation
+
+| Phase                           | P10 Time (weeks) | P50 Time (weeks) | P90 Time (weeks) | P10 Cost (€) | P50 Cost (€) | P90 Cost (€) |
+| ------------------------------- | ---------------- | ---------------- | ---------------- | ------------ | ------------ | ------------ |
+| 0. RFP Preparation              | 1                | 1                | 1                | 5,000        | 5,000        | 5,000        |
+| 1. Collection                   | 9                | 10               | 11               | 5,625        | 15,000       | 24,750       |
+| 2. Curation                     | 9                | 10               | 11               | 5,625        | 15,000       | 24,750       |
+| 3. Descriptive Analytics Engine | 6                | 7                | 8                | 3,750        | 10,500       | 18,000       |
+| 4. Exposure                     | 8                | 9                | 10               | 5,000        | 13,500       | 22,500       |
+| **Total**                       | **33**           | **37**           | **41**           | **25,000**   | **59,000**   | **95,000**   |
 
 <br>
 
 # <span style="color:#198110">XVI. Milestones and Estimated Timeline</span>
 
-The following timeline outlines key project milestones and estimated delivery dates across a 12-month window, covering the full scope of **Phase 1: Incubation**. The schedule accounts for development, infrastructure setup, analytics engine deployment, and the initial launch of the natural language interface.
+The following timeline outlines key project milestones and the prices estimation, covering the full scope of **Phase 1: Incubation**.
 
-> Timeline assumes a project start date of **May 2025** and follows a linear, milestone-based delivery approach with parallel task execution where feasible.
+> Timeline assumes a project start date of **Jun 2025** 2 weeks vacation at the end of August and 2 weeks vacation at the end of December, milestone-based delivery approach with parallel task execution where feasible.
 
 ### <span style="color:#124C89">Milestone-to-Phase Alignment Overview</span>
 
-| Month                   | Key Activities                                              | Phase(s) Covered             |
-| ----------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **May 2025**            | Kickoff, AWS setup, project alignment                       | Collection                   |
-| **June 2025**           | Connect to **Archive Qubic**, deploy ingestion microservice | Collection                   |
-| **July–Aug 2025**       | Curation pipeline development, semantic schema definition   | Curation                     |
-| **Sept–Oct 2025**       | KPI logic, query layer, dashboard configuration             | Descriptive Analytics Engine |
-| **Nov 2025 – Jan 2026** | MCP and NLP agent setup, prompt training                    | Exposure                     |
-| **Feb 2026**            | QA testing, feedback integration                            | Testing & QA                 |
-| **Mar–Apr 2026**        | Beta testing, onboarding, public release                    | Beta & Launch                |
+### Milestone-to-Phase Alignment Overview (Adjusted for Holidays)
+
+| Phase                           | Weeks | Cost (€) | Start Date | End Date   |
+| ------------------------------- | ----- | -------- | ---------- | ---------- |
+| 0. RFP Preparation              | 1     | 5,000    | 2025-06-02 | 2025-06-07 |
+| 1. Collection                   | 9     | 5,625    | 2025-06-07 | 2025-08-09 |
+| 2. Curation                     | 9     | 5,625    | 2025-08-09 | 2025-10-25 |
+| 3. Descriptive Analytics Engine | 6     | 3,750    | 2025-10-25 | 2025-12-06 |
+| 4. Exposure                     | 8     | 5,000    | 2025-12-06 | 2026-02-14 |
 
 <br>
 
 # <span style="color:#198110">XVII. Use Cases</span>
 
-The following use cases illustrate how **TxGuard** will serve key actors across the financial compliance lifecycle. Each use case aligns with the platform’s **Phase 1** (descriptive analytics) or **Phase 2** (predictive intelligence) capabilities, offering a practical view of how blockchain insights can improve operational decision-making and regulatory compliance.
+The following use cases illustrate how **TxGuard** will serve key actors across the financial compliance lifecycle. Each use case aligns with the platform’s **Phase 1** (descriptive analytics) capabilities, offering a practical view of how blockchain insights can improve operational decision-making and regulatory compliance.
 
 ### <span style="color:#124C89">Phase 1: Incubation – Descriptive Analytics and User Interface</span>
 
@@ -607,24 +551,170 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 - **Scenario**: Queries, “List the top 5 active wallets this month.”
 - **Outcome**: Ranked list of wallet addresses with associated activity metrics is returned.
 
-### <span style="color:#124C89">Phase 2: Acceleration – Predictive Analytics for AML & KYT</span>
-
-#### **Use Case 4: Compliance Policy Enforcement**
+#### **Use Case 4: Transaction Monitoring and Pattern Detection**
 
 - **Actor**: Compliance Officer
-- **Scenario**: Creates custom rules to flag deviations in transaction behavior.
-- **Outcome**: The system auto-escalates violations and logs actions taken.
+- **Scenario**: Investigates high-frequency transactions across ticks.
+- **Outcome**: Heatmaps and pattern recognition visuals highlight unusual clusters and flows.
 
-#### **Use Case 5: Predictive Transaction Risk Scoring**
+#### **Use Case 5: Customer Risk Profiling**
+
+- **Actor**: Risk Analyst
+- **Scenario**: Inputs a blockchain identity to assess credit eligibility.
+- **Outcome**: Risk score is returned based on transaction history and behavioral patterns.
+
+#### **Use Case 6: Asset Tracing**
+
+- **Actor**: Investigator
+- **Scenario**: Needs to track the origin of funds received by a suspicious address.
+- **Outcome**: A transaction graph shows the complete inbound tick path across identities.
+
+#### **Use Case 7: Regulatory Reporting**
+
+- **Actor**: Compliance Team
+- **Scenario**: Prepares a quarterly AML/KYT report.
+- **Outcome**: Auto-generated, exportable reports with key KPIs and customizable filters.
+
+#### **Use Case 8: Fraud Detection via Identity Mapping**
+
+- **Actor**: Fraud Investigator
+- **Scenario**: Investigates a scam alert on a specific address.
+- **Outcome**: A graph of identity relationships surfaces potential laundering or scam clusters.
+
+# <span style="color:#198110">XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance</span>
+
+This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**—essential for high-stakes financial operations.
+
+The objective is to ensure TxGuard’s long-term relevance by introducing machine learning, anomaly detection, and behavioral modeling as native features. This forward-looking design supports compliance with global regulatory frameworks while positioning TxGuard as a next-generation blockchain intelligence layer.
+
+---
+
+## <span style="color:#124C89">1. Scope</span>
+
+- **User Management & Access Control for Phase 2**: Leverage Qubic address-based identity with role-based permissions.
+- **Future-Proofing for Phase 2**: Design architecture to support predictive analytics scalability.
+- **Compliance Features for Phase 2**: Plan for AML/KYT checks and reporting capabilities.
+
+---
+
+## <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
+
+**Objective**: Augment **TxGuard** with predictive analytics to enhance compliance workflows and risk management.
+
+**Key Activities**:
+
+- Train machine learning models for anomaly detection and trend forecasting.
+- Integrate AML/KYT compliance automation features.
+- Validate the accuracy and performance of insights generated by the models.
+
+---
+
+## <span style="color:#124C89">Inputs</span>
+
+### **Phase 2: Predictive Analytics**
+
+- **Client Data**: Identity-linked Know Your Customer (KYC) information.
+- **Regulatory Rules**: AML/KYT standards, thresholds, and custom flags.
+
+---
+
+## <span style="color:#124C89">Outputs</span>
+
+### **Phase 2: Predictive Outcomes**
+
+- **Risk Scores**: Near real-time assessments of identity and transaction risk levels.
+- **Anomaly Alerts**: Notifications driven by machine learning for suspicious patterns.
+- **Model Metrics**: Confidence intervals, accuracy scores, and false positive rates.
+
+---
+
+## <span style="color:#124C89">Functional Requirements</span>
+
+- **FR6**: Customizable risk scoring algorithms based on frequency, volume, and network behavior.
+- **FR7**: Behavioral profiling linked to high-risk entities and address clustering.
+- **FR8**: ML-based risk classification models targeting ≥90% accuracy.
+- **FR12**: Role-Based Access Control (RBAC) mapped to Qubic identities and subscription tiers.
+
+---
+
+## <span style="color:#124C89">Non-Functional Requirements</span>
+
+- **NFR4**: AWS auto-scaling support for horizontal scalability.
+- **NFR5**: ≥90% uptime with fault-tolerant architecture.
+- **NFR6**: Interoperability with external entities using structured formats.
+- **NFR7**: GDPR compliance, audit logging, and secure data disposal.
+- **NFR8**: WCAG 2.1-compliant interface for non-technical users.
+- **NFR9**: End-to-end encryption; PCI DSS and ISO 27001 compliance.
+
+---
+
+## <span style="color:#198110">VIII. Metrics and KPIs</span>
+
+### 1. System Performance Metrics
+
+- **Query Response Time**: <10s for 85% of NLP queries.
+- **Uptime**: ≥90% (≤3 hours downtime annually).
+
+### 2. User Adoption and Satisfaction
+
+- **Adoption Rate**: ≥80% within 6 months of deployment.
+
+### 3. Compliance and Risk Management
+
+- **Alert Accuracy**: ≥70%.
+- **Risk Detection Speed**: <1 minute.
+- **Reporting Efficiency**: 50% time reduction.
+- **Compliance Coverage**: 100% regulatory alignment.
+
+### 4. Business Impact
+
+- **Revenue Protection**: ≥70% of fraudulent activity intercepted.
+- **Efficiency Improvement**: ≥60% reduction in compliance workload.
+- **API Performance**: <100ms for 95% of calls.
+
+### 5. Security and Compliance
+
+- **Security Incident Rate**: 0 breaches/year.
+- **Audit Compliance**: 100% coverage.
+
+### 6. Innovation and Improvement
+
+- **Feature Velocity**: ≥2 major features/year.
+- **Model Accuracy Gain**: +5% per quarter.
+- **User Feedback Implementation**: ≥25% of viable feedback delivered within 6 months.
+
+---
+
+## <span style="color:#124C89">Phase 2: Use Cases</span>
+
+### **Use Case 9: Compliance Policy Enforcement**
+
+- **Actor**: Compliance Officer
+- **Scenario**: Creates custom rules for transaction deviations.
+- **Outcome**: System auto-escalates violations and logs audit trails.
+
+### **Use Case 10: Predictive Transaction Risk Scoring**
 
 - **Actor**: AML Analyst
-- **Scenario**: Evaluates transactions in real-time to identify pre-confirmation risks.
-- **Outcome**: Transactions with high predicted risk are intercepted and flagged.
+- **Scenario**: Assesses pre-confirmation transaction risk.
+- **Outcome**: High-risk transactions are flagged in real time.
 
-#### **Use Case 6: Anomaly Detection and Early Warnings**
+### **Use Case 11: Anomaly Detection and Early Warnings**
 
 - **Actor**: Fraud Prevention Team
-- **Scenario**: Requests proactive alerts for unusual transaction spikes or patterns.
-- **Outcome**: ML models identify and surface early fraud indicators.
+- **Scenario**: Receives alerts on unusual activity spikes.
+- **Outcome**: ML models surface early indicators of fraud.
+
+### **Use Case 12: Customer Behavior Forecasting**
+
+- **Actor**: Relationship Manager
+- **Scenario**: Tracks behavioral shifts in high-value clients.
+- **Outcome**: Predictive models inform engagement strategies.
+
+### **Use Case 13: Money Laundering Network Analysis**
+
+- **Actor**: AML Team
+- **Scenario**: Identifies risk across wallet networks.
+- **Outcome**: Illicit clusters are mapped and scored using ML.
 
 <br><br><br>
