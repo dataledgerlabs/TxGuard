@@ -261,7 +261,7 @@ This architecture supports:
 
 ### <span style="color:#124C89">Illustrative Diagram</span>
 
-![architecture](https://github.com/user-attachments/assets/2848fdac-2be4-4c66-9771-02ff0f0cc785 =800x500)
+![architecture](https://github.com/user-attachments/assets/2848fdac-2be4-4c66-9771-02ff0f0cc785)
 
 <br>
 
