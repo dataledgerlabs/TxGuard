@@ -22,13 +22,13 @@
 - [XV. Budget Estimation](#xv-budget-estimation)
 - [XVI. Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
 - [XVII. Use Cases](#xvii-use-cases)
-- [XVIII. Annex](#xviii-annex)
+- [XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance](#xviii-annex-phase-2-planning--predictive-capabilities-and-compliance)
 
 ---
 
 # <span style="color:#198110">Executive Summary</span>
 
-The financial landscape has evolved—clients now use blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviors while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs** presents **TxGuard**, a comprehensive Business-to-Intelligence Artificial (**B2IA**) solution designed for traditional and non-traditional financial entities. The solution is planned to be built on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain**, ensuring compliance with AML and KYT requirements.
+The financial landscape has evolved—clients now use blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviors while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs** presents **TxGuard**, a comprehensive **"Business-to-Artificial Intelligence"** (B2AI) solution designed for traditional and non-traditional financial entities. The solution is planned to be built on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain**, ensuring compliance with AML and KYT requirements.
 
 TxGuard is structured as a two-phase deployment strategy that maximizes scalability, reduces risk, and ensures rapid value delivery:
 
@@ -36,7 +36,7 @@ TxGuard is structured as a two-phase deployment strategy that maximizes scalabil
 
 - Phase 2: Acceleration – Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
 
-The total implementation time for Phase 1 is estimated at one year, with a staffing level of approximately 1.2 Full-Time Equivalents (FTE). Budget planning for this phase follows the P10 (best-case) scenario—an intentionally lean estimate that ensures early feasibility and minimizes risk exposure in the budgeting cycle. Full cost and time allocations are detailed in the XVI. [XVI. Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
+The total implementation time for Phase 1 is estimated approximately in one year, with a staffing level of approximately 1.2 Full-Time Equivalents (FTE). Budget planning for this phase follows the P10 (best case) scenario. Full cost and time allocations are detailed in the XVI. [Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
 
 <br>
 
@@ -54,8 +54,6 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 # <span style="color:#198110">II. Value Proposition and Differentiation</span>
 
-### <span style="color:#124C89">How We Differentiate TxGuard</span>
-
 **TxGuard** stands out by combining automation, advanced analytics, and user-centric design to deliver unmatched value in the current market:
 
 - **Automation**: Automated data ingestion and transformation pipelines using AWS tools reduce manual effort, ensuring efficiency and scalability.
@@ -72,7 +70,7 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 - **Enhanced Regulatory Compliance**: **_Phase 2_** builds on this with near real-time insights by leveraging curated blockchain data for AML and KYT compliance. This proactive approach helps financial entities stay ahead of regulatory demands and positions them for effective risk management and fraud detection in non-traditional assets inspired by [Chainalysis KYT, 2025](https://www.chainalysis.com/product/kyt/).
 
-<span style="color:#124C89">**Value Proposition**</span>
+<span style="color:#124C89">**Our Value Proposition**</span>
 
 **TxGuard** empowers Qubic's owner identities and financial entities with blockchain intelligence, addressing fraud prevention and market insight needs in a growing analytics market valued at USD 2.89 billion in 2025, within a global blockchain market projected at USD 57.72 billion ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)).
 
@@ -84,7 +82,7 @@ The potential impact of this solution is substantial, presenting a unique opport
 
 # <span style="color:#198110">III. Project Overview</span>
 
-**TxGuard** is a decentralized application (Dapp) delivering descriptive analytics and natural language querying of Qubic tick data, covering transaction patterns, identities behaviours, and risk factors. It enhances regulatory compliance, sharpens decision-making, and sets the stage for predictive analytics.
+**TxGuard** is a Business-to-Artificial Intelligence (B2AI) Agent that enables natural language queries to deliver actionable descriptive analytics from Qubic tick data, including transaction patterns, identity behaviors, and risk factors. Aligned with the **BUIDL** philosophy, TxGuard drives active engagement with blockchain technology by empowering users to harness data effectively. It strengthens regulatory compliance, enhances decision-making, and lays the foundation for predictive analytics.
 
 - **Phase 1 (Incubation)**: Establish a robust pipeline for tick data extraction, curation, and descriptive analytics with natural language access.
 
@@ -259,7 +257,7 @@ TxGuard’s performance and business success will be measured through a defined 
 
 As this RFP pertains exclusively to Phase 1, the platform will not include a user-facing UX/UI layer. Instead, interaction will be facilitated via a natural language interface powered by a Large Language Model (LLM), enabling database queries without a traditional frontend.
 
-Formal subscription tiers will be introduced in Phase 2, where a fully featured product—starting with a beta version of the Basic Tier—will be released to early users for testing and feedback. ---------> Como lo hacemos pa no pagar nosotros las consultas?
+Formal subscription tiers will be introduced in Phase 2, where a fully featured product—starting with a beta version of the Basic Tier—will be released to early users for testing and feedback.
 
 ### <span style="color:#124C89">Subscription Tiers</span>
 
@@ -385,22 +383,22 @@ A clear and compelling marketing and communication strategy is essential to driv
 
 **TxGuard** is built by a multidisciplinary team with deep expertise in blockchain engineering, data science, backend infrastructure, and regulatory technology. The team operates within a **horizontal structure** to promote agility, shared ownership, and innovation, ensuring the successful delivery of a scalable, secure, and regulation-ready analytics platform.
 
-## <span style="color:#124C89">[Andrés León](https://www.linkedin.com/in/andres-leon-bohorquez/) – Senior Backend Architect and Blockchain Educator</span>
+### <span style="color:#124C89">[Andrés León](https://www.linkedin.com/in/andres-leon-bohorquez/) – Senior Backend Architect and Blockchain Educator</span>
 
 With over 20 years of experience in backend systems and distributed architectures, Andrés began coding in BASIC at age 11. He discovered cryptographic systems and digital payments in 2005 through RipplePay at the Polytechnic University, which sparked his commitment to decentralized infrastructure. A professor at CodeCrypto Academy, Andrés is a cornerstone in TxGuard’s architecture—designing scalable systems for tick data ingestion and processing.
 **Expertise**: Databases, backend performance, secure systems, distributed ledgers.
 
-## <span style="color:#124C89">[Jacky Barraza](https://www.linkedin.com/in/jackybarraza/) – Senior Data Scientist</span>
+### <span style="color:#124C89">[Jacky Barraza](https://www.linkedin.com/in/jackybarraza/) – Senior Data Scientist</span>
 
 Jacky brings 18+ years of experience in AI and cloud-native data engineering. She holds a Master’s in Blockchain Engineering from CodeCrypto Academy and has led predictive analytics projects across finance, energy, and digital identity. Her leadership on **Bloodchain**, a privacy-preserving blockchain system, reflects her commitment to secure, explainable AI. In TxGuard, she drives anomaly detection, compliance scoring, and data modelling.
 **Expertise**: Machine learning, Azure ML, decentralized architectures, analytics pipelines.
 
-## <span style="color:#124C89">[Jose Fco Gámez](https://www.linkedin.com/in/dalzemag/) – Senior Solution Architect</span>
+### <span style="color:#124C89">[Jose Fco Gámez](https://www.linkedin.com/in/dalzemag/) – Senior Solution Architect</span>
 
 Jose has over 15 years of experience across IoT, backend platforms, CTO and DevOps. A Master’s student in Blockchain Engineering, he specializes in cloud-native architecture and CI/CD workflows. His experience spans Shopify, MongoDB, and secure API design. At TxGuard, Jose ensures infrastructure resilience and service modularity.
 **Expertise**: AWS, DevOps pipelines, secure APIs, MQTT/Node-RED integration.
 
-## <span style="color:#124C89">[Javier Ruiz-Canela López](https://www.linkedin.com/in/javier-ruiz-canela-lopez-a293a1a3/) – Senior Software Engineer</span>
+### <span style="color:#124C89">[Javier Ruiz-Canela López](https://www.linkedin.com/in/javier-ruiz-canela-lopez-a293a1a3/) – Senior Software Engineer</span>
 
 Javier brings a decade of experience in regulated sectors such as finance and pharmaceuticals. As a Master’s student in Blockchain Engineering, he applies his knowledge of Java, Spring, and secure identity systems (Keycloak, LDAP) to ensure TxGuard’s IAM and analytics services are enterprise-grade.
 **Expertise**: Microservices, IAM systems, event-driven architecture, Spring Boot, Kafka.
@@ -411,7 +409,7 @@ Javier brings a decade of experience in regulated sectors such as finance and ph
 
 This section outlines a high-level breakdown of the estimated effort and associated costs required to implement Phase 1. The estimates cover the this RFP report and all major functional stages—Collection, Curation, Descriptive Analytics, and Exposure—and include infrastructure setup, core development, deployment, documentation, and testing activities.
 
-The project planning and timelines are presented using the P50 (baseline) scenario, which reflects a realistic balance between optimistic and conservative assumptions regarding development velocity and resource availability. The P10 scenario represents a more conservative approach, which will be the selected budget on this RFP.
+The project planning and timelines are presented using the P50 (baseline) scenario, which reflects a realistic balance between best case and conservative assumptions regarding development velocity and resource availability. The P10 scenario represents a more conservative approach, which will be the selected budget on this RFP.
 
 This approach allows the team to demonstrate feasibility within a lean resource model while maintaining flexibility to scale if necessary. Presenting the budget through the P10 lens ensures financial efficiency for early-stage planning and facilitates quicker approval by minimizing initial funding requirements, without compromising the integrity of the technical roadmap.
 
@@ -462,7 +460,7 @@ This approach allows the team to demonstrate feasibility within a lean resource 
 | - Peer Review                                                          | • Prompt engine and access validation                                         | 0.5 week               |
 | - **Iteration Phase with Qubic Team**                                  | • Final feedback and handoff                                                  | 1 week                 |
 
-| <span style="color:#124C89">**TOTAL ESTIMATED (Phase 1)**</span> | | **37 weeks** + 4 weeks for reviewing |
+> <span style="color:#124C89">**TOTAL ESTIMATED (Phase 1):**</span> **37 weeks** + 4 weeks for reviewing
 
 > Note: The week allocated to the Iteration Phase with Qubic Team is included in the total project duration of 41 weeks but is excluded from resource allocation calculations. This phase serves as a dedicated period for review, feedback, and approval by the Qubic team.
 
@@ -474,7 +472,7 @@ The total availability of the core team working on TxGuard is structured around 
 
 To address variability in effort and delivery, three risk-based scenarios are projected:
 
-- **P10 (Optimistic)**: 33 weeks
+- **P10 (Best Case)**: 33 weeks
 - **P50 (Baseline)**: 37 weeks
 - **P90 (Conservative)**: 41 weeks
 
@@ -581,23 +579,21 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 - **Scenario**: Investigates a scam alert on a specific address.
 - **Outcome**: A graph of identity relationships surfaces potential laundering or scam clusters.
 
+<br>
+
 # <span style="color:#198110">XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance</span>
 
 This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**—essential for high-stakes financial operations.
 
 The objective is to ensure TxGuard’s long-term relevance by introducing machine learning, anomaly detection, and behavioral modeling as native features. This forward-looking design supports compliance with global regulatory frameworks while positioning TxGuard as a next-generation blockchain intelligence layer.
 
----
-
-## <span style="color:#124C89">1. Scope</span>
+### <span style="color:#124C89">1. Scope</span>
 
 - **User Management & Access Control for Phase 2**: Leverage Qubic address-based identity with role-based permissions.
 - **Future-Proofing for Phase 2**: Design architecture to support predictive analytics scalability.
 - **Compliance Features for Phase 2**: Plan for AML/KYT checks and reporting capabilities.
 
----
-
-## <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
+### <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
 
 **Objective**: Augment **TxGuard** with predictive analytics to enhance compliance workflows and risk management.
 
@@ -607,37 +603,25 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - Integrate AML/KYT compliance automation features.
 - Validate the accuracy and performance of insights generated by the models.
 
----
-
-## <span style="color:#124C89">Inputs</span>
-
-### **Phase 2: Predictive Analytics**
+### <span style="color:#124C89">Inputs</span>
 
 - **Client Data**: Identity-linked Know Your Customer (KYC) information.
 - **Regulatory Rules**: AML/KYT standards, thresholds, and custom flags.
 
----
-
-## <span style="color:#124C89">Outputs</span>
-
-### **Phase 2: Predictive Outcomes**
+### <span style="color:#124C89">Outputs</span>
 
 - **Risk Scores**: Near real-time assessments of identity and transaction risk levels.
 - **Anomaly Alerts**: Notifications driven by machine learning for suspicious patterns.
 - **Model Metrics**: Confidence intervals, accuracy scores, and false positive rates.
 
----
-
-## <span style="color:#124C89">Functional Requirements</span>
+### <span style="color:#124C89">Functional Requirements</span>
 
 - **FR6**: Customizable risk scoring algorithms based on frequency, volume, and network behavior.
 - **FR7**: Behavioral profiling linked to high-risk entities and address clustering.
 - **FR8**: ML-based risk classification models targeting ≥90% accuracy.
 - **FR12**: Role-Based Access Control (RBAC) mapped to Qubic identities and subscription tiers.
 
----
-
-## <span style="color:#124C89">Non-Functional Requirements</span>
+### <span style="color:#124C89">Non-Functional Requirements</span>
 
 - **NFR4**: AWS auto-scaling support for horizontal scalability.
 - **NFR5**: ≥90% uptime with fault-tolerant architecture.
@@ -646,11 +630,9 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **NFR8**: WCAG 2.1-compliant interface for non-technical users.
 - **NFR9**: End-to-end encryption; PCI DSS and ISO 27001 compliance.
 
----
+### <span style="color:#198110">VIII. Metrics and KPIs</span>
 
-## <span style="color:#198110">VIII. Metrics and KPIs</span>
-
-### 1. System Performance Metrics
+#### 1. System Performance Metrics
 
 - **Query Response Time**: <10s for 85% of NLP queries.
 - **Uptime**: ≥90% (≤3 hours downtime annually).
@@ -666,40 +648,38 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **Reporting Efficiency**: 50% time reduction.
 - **Compliance Coverage**: 100% regulatory alignment.
 
-### 4. Business Impact
+#### 4. Business Impact
 
 - **Revenue Protection**: ≥70% of fraudulent activity intercepted.
 - **Efficiency Improvement**: ≥60% reduction in compliance workload.
 - **API Performance**: <100ms for 95% of calls.
 
-### 5. Security and Compliance
+#### 5. Security and Compliance
 
 - **Security Incident Rate**: 0 breaches/year.
 - **Audit Compliance**: 100% coverage.
 
-### 6. Innovation and Improvement
+#### 6. Innovation and Improvement
 
 - **Feature Velocity**: ≥2 major features/year.
 - **Model Accuracy Gain**: +5% per quarter.
 - **User Feedback Implementation**: ≥25% of viable feedback delivered within 6 months.
 
----
+### <span style="color:#124C89">Phase 2: Use Cases</span>
 
-## <span style="color:#124C89">Phase 2: Use Cases</span>
-
-### **Use Case 9: Compliance Policy Enforcement**
+#### **Use Case 9: Compliance Policy Enforcement**
 
 - **Actor**: Compliance Officer
 - **Scenario**: Creates custom rules for transaction deviations.
 - **Outcome**: System auto-escalates violations and logs audit trails.
 
-### **Use Case 10: Predictive Transaction Risk Scoring**
+#### **Use Case 10: Predictive Transaction Risk Scoring**
 
 - **Actor**: AML Analyst
 - **Scenario**: Assesses pre-confirmation transaction risk.
 - **Outcome**: High-risk transactions are flagged in real time.
 
-### **Use Case 11: Anomaly Detection and Early Warnings**
+#### **Use Case 11: Anomaly Detection and Early Warnings**
 
 - **Actor**: Fraud Prevention Team
 - **Scenario**: Receives alerts on unusual activity spikes.
@@ -711,10 +691,18 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **Scenario**: Tracks behavioral shifts in high-value clients.
 - **Outcome**: Predictive models inform engagement strategies.
 
-### **Use Case 13: Money Laundering Network Analysis**
+#### **Use Case 13: Money Laundering Network Analysis**
 
 - **Actor**: AML Team
 - **Scenario**: Identifies risk across wallet networks.
 - **Outcome**: Illicit clusters are mapped and scored using ML.
+
+<br>
+
+---
+
+Let´s BUIDL!!
+
+---
 
 <br><br><br>
