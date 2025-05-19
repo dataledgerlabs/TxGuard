@@ -73,11 +73,7 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 <span style="color:#124C89">**Our Value Proposition**</span>
 
-**TxGuard** empowers Qubic's owner identities and financial entities with blockchain intelligence, addressing fraud prevention and market insight needs in a growing analytics market valued at USD 2.89 billion in 2025, within a global blockchain market projected at USD 57.72 billion ([Grand View Research, 2024](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)).
-
 Leveraging Qubic, which processes up to 55 million transactions per second (The Qubic Team, 2024), TxGuard positions itself as a first-mover in an underserved ecosystem. The platform offers a strategic advantage with the scalability to extend across wider blockchain networks (101blockchains.com, 2025).
-
-The potential impact of this solution is substantial, presenting a unique opportunity to lead the next generation of blockchain compliance and intelligence.
 
 <br>
 
@@ -406,101 +402,24 @@ Javier brings a decade of experience in regulated sectors such as finance and ph
 
 # <span style="color:#198110">XV. Budget Estimation</span>
 
-This section outlines a high-level breakdown of the estimated effort and associated costs required to implement Phase 1. The estimates cover the this RFP report and all major functional stages—Collection, Curation, Descriptive Analytics, and Exposure—and include infrastructure setup, core development, deployment, documentation, and testing activities.
+This section outlines the estimated effort, staffing, and costs for Phase 1: Incubation of TxGuard. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The estimates account for infrastructure setup, development, deployment, documentation, and testing. The initial phase adopts a pay-per-query business model, with subscription tiers planned for Phase 2.
 
-The project planning and timelines are presented using the P50 (baseline) scenario, which reflects a realistic balance between best case and conservative assumptions regarding development velocity and resource availability. The P10 scenario represents a more conservative approach, which will be the selected budget on this RFP.
+### **Staffing and FTE Allocation**
 
-This approach allows the team to demonstrate feasibility within a lean resource model while maintaining flexibility to scale if necessary. Presenting the budget through the P10 lens ensures financial efficiency for early-stage planning and facilitates quicker approval by minimizing initial funding requirements, without compromising the integrity of the technical roadmap.
+TxGuard’s core team consists of four members with a combined capacity of 1.2 Full-Time Equivalents (FTEs), where one FTE represents a person working full-time (8 hours/day, 5 days/week). The team includes one member at 60% capacity and three at 20% each. This lean structure enables parallel development and cross-functional collaboration in architecture, data science, engineering, and compliance, optimizing resources for the 33 weeks project timeline.
 
-### <span style="color:#124C89">Development Effort by Phase and Task</span>
-
-<br>
-
-| **Phase / Task**                                                       | Subtasks                                                                      | Estimated Time (weeks) |
-| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------- |
-| <span style="color:#124C89">**0. RFP Preparation**</span>              |                                                                               | **1 week**             |
-| - Documentation & Planning                                             | • Build the RFP draft for Qubic <br>• Project scoping                         | 1 week                 |
-| - Repository & Project Setup                                           | • Create base repo <br>• Dev environment bootstrap                            | Included above         |
-| <span style="color:#124C89">**1. Collection**</span>                   |                                                                               | **11 weeks**           |
-| - Prospection                                                          | • Node access validation <br>• Tick log inspection <br>• Data sync validation | 1 week                 |
-| - Development                                                          | • Service development (Node.js)                                               | 2 weeks                |
-| - Architecture Setup                                                   | • VM/containers <br>• Network config <br>• Load balancing                     | 1 weeks                |
-| - Deployment                                                           | • Implementation <br>• Resilience <br>• Testing                               | 2 weeks                |
-| - Originarium DB Setup                                                 | • PostgreSQL <br>• Network config <br>• Load balancing                        | 2 weeks                |
-| - Unit Tests                                                           | • Development and execution                                                   | 1 week                 |
-| - Documentation                                                        | • Technical write-ups <br>• Usage guides <br>• Architecture diagrams          | 0.5 week               |
-| - Peer Review                                                          | • Code review by second engineer                                              | 0.5 week               |
-| - **Iteration Phase with Qubic Team**                                  | • Review & approval to proceed                                                | 1 week                 |
-| <span style="color:#124C89">**2. Curation**</span>                     |                                                                               | **11 weeks**           |
-| - Prospection                                                          | • Schema audit <br>• Data type mapping <br>• Semantics pre-validation         | 1 week                 |
-| - Development                                                          | • Service (Node.js/Go/Rust)                                                   | 2 weeks                |
-| - Architecture Setup                                                   | • VM/containers <br>• Network config <br>• Load balancing                     | 1 weeks                |
-| - Deployment                                                           | • Implementation <br>• Resilience <br>• Testing                               | 2 weeks                |
-| - Semantide DB Setup                                                   | • PostgreSQL <br>• Schema design <br>• Load balancing                         | 2 weeks                |
-| - Unit Tests                                                           | • Development and execution                                                   | 1 week                 |
-| - Documentation                                                        | • Data structure notes <br>• Transformation flows                             | 0.5 week               |
-| - Peer Review                                                          | • Code audit and review                                                       | 0.5 week               |
-| - **Iteration Phase with Qubic Team**                                  | • Feedback and approval to proceed                                            | 1 week                 |
-| <span style="color:#124C89">**3. Descriptive Analytics Engine**</span> |                                                                               | **8 weeks**            |
-| - Prospection                                                          | • Identify KPIs <br>• Semantic tagging options <br>• Query capabilities       | 1 week                 |
-| - Analytical Logic Implementation                                      | • Historical metrics <br>• Address behaviors                                  | 2 weeks                |
-| - Semantic Modeling                                                    | • Labeling clusters <br>• Feature engineering                                 | 2 weeks                |
-| - Unit Tests                                                           | • Validation of KPIs and metrics                                              | 1 weeks                |
-| - Documentation                                                        | • Queries mapping <br>• Metrics catalog                                       | 0.5 week               |
-| - Peer Review                                                          | • Review analytical functions                                                 | 0.5 week               |
-| - **Iteration Phase with Qubic Team**                                  | • Feedback and green light to proceed                                         | 1 week                 |
-| <span style="color:#124C89">**4. Exposure**</span>                     |                                                                               | **10 weeks**           |
-| - Prospection                                                          | • NLP agent scope definition <br>• Prompt engineering evaluation              | 1 week                 |
-| - Setup & Development                                                  | • MCP setup <br>• Guard prompting agent logic                                 | 2 weeks                |
-| - Deployment                                                           | • Logs <br>• Alert integrations <br>• Testing                                 | 2 weeks                |
-| - Friend and Family Interaction                                        | • Review and revise feedback                                                  | 2 week                 |
-| - Unit Tests                                                           | • Testing response and access logs                                            | 1 weeks                |
-| - Documentation                                                        | • NLP flows <br>• User query examples <br>• Permission logic                  | 0.5 week               |
-| - Peer Review                                                          | • Prompt engine and access validation                                         | 0.5 week               |
-| - **Iteration Phase with Qubic Team**                                  | • Final feedback and handoff                                                  | 1 week                 |
-
-> <span style="color:#124C89">**TOTAL ESTIMATED (Phase 1):**</span> **37 weeks** + 4 weeks for reviewing
-
-> Note: The week allocated to the Iteration Phase with Qubic Team is included in the total project duration of 41 weeks but is excluded from resource allocation calculations. This phase serves as a dedicated period for review, feedback, and approval by the Qubic team.
+The hourly rate was set at $15.50, based on a standard 5-day work week. Using this rate, the total project cost is estimated at approximately $25,000. It is important to note that the Iteration Phase with the Qubic Team, although included in the total project timeline of 37 weeks, is excluded from the resource cost calculation. This additional 4-week period is reserved exclusively for collaborative review, feedback, and formal approval with Qubic stakeholders, ensuring strategic alignment without incurring further development costs.
 
 <br>
 
-### <span style="color:#124C89">Effort Scenarios and Resource Allocation</span>
-
-The total availability of the core team working on TxGuard is structured around a combined capacity of 1.2 Full-Time Equivalents (FTEs). This allocation is distributed among four team members: one person is assigned 60% of their time, while the other three are each assigned 20%. An FTE represents one person working full-time, which typically means 8 hours a day, 5 days a week. Therefore, a capacity of 1.2 FTEs reflects the combined effort of 1.2 full-time team members over the project's timeline. This configuration allows for focused parallel development while ensuring cross-functional input across architecture, data science, engineering, and compliance. All timeline and workload estimates, including the 252 FTE days in the P10 scenario, are based on this available capacity.
-
-To address variability in effort and delivery, three risk-based scenarios are projected:
-
-- **P10 (Best Case)**: 33 weeks
-- **P50 (Baseline)**: 37 weeks
-- **P90 (Conservative)**: 41 weeks
-
-| Scenario | Duration (weeks) | Jose | Javi | Andrés | Jacky | Total FTE Days |
-| -------- | ---------------- | ---- | ---- | ------ | ----- | -------------- |
-| P10      | 33               | 57%  | 19%  | 19%    | 19%   | 166            |
-| P50      | 37               | 60%  | 20%  | 20%    | 20%   | 185            |
-| P90      | 41               | 63%  | 21%  | 21%    | 21%   | 204            |
-
-<br>
-
-### <span style="color:#124C89">Cost Estimation by Scenario</span>
-
-Developer daily rates were benchmarked from Western Europe ([Arc.dev, 2024](https://arc.dev/salaries?location=spain) and [Satatic DevitJobs](https://static.devitjobs.com/market-reports/European-Transparent-IT-Job-Market-Report-2024.pdf?utm_source=chatgpt.com)):
-
-- **P10 (Best Case)**: $125/day
-- **P50 (Realistic Case)**: $300/day
-- **P90 (Worst Case)**: $450/day
-
-### Phase-Based Effort and Cost Estimation
-
-| Phase                           | P10 Time (weeks) | P50 Time (weeks) | P90 Time (weeks) | P10 Cost (€) | P50 Cost (€) | P90 Cost (€) |
-| ------------------------------- | ---------------- | ---------------- | ---------------- | ------------ | ------------ | ------------ |
-| 0. RFP Preparation              | 1                | 1                | 1                | 5,000        | 5,000        | 5,000        |
-| 1. Collection                   | 9                | 10               | 11               | 5,625        | 15,000       | 24,750       |
-| 2. Curation                     | 9                | 10               | 11               | 5,625        | 15,000       | 24,750       |
-| 3. Descriptive Analytics Engine | 6                | 7                | 8                | 3,750        | 10,500       | 18,000       |
-| 4. Exposure                     | 8                | 9                | 10               | 5,000        | 13,500       | 22,500       |
-| **Total**                       | **33**           | **37**           | **41**           | **25,000**   | **59,000**   | **95,000**   |
+| Phase / Task                    | Subtasks                                                                  | P10 Time (weeks) | P10 Cost (€) |
+| ------------------------------- | ------------------------------------------------------------------------- | ---------------- | ------------ |
+| 0. RFP Preparation              | Draft RFP, project scoping, repository setup                              | 1                | 5,000        |
+| 1. Collection                   | Node validation, service development (Node.js), PostgreSQL setup, testing | 9                | 5,625        |
+| 2. Curation                     | Schema audit, service development (Node.js/Go/Rust), Semantide DB setup   | 9                | 5,625        |
+| 3. Descriptive Analytics Engine | KPI identification, semantic modeling, metric validation                  | 6                | 3,750        |
+| 4. Exposure                     | NLP agent setup, prompt engineering, user query testing                   | 8                | 5,000        |
+| **Total (excluding reviews)**   |                                                                           | **33**           | **25,000**   |
 
 <br>
 
@@ -508,11 +427,7 @@ Developer daily rates were benchmarked from Western Europe ([Arc.dev, 2024](http
 
 The following timeline outlines key project milestones and the prices estimation, covering the full scope of **Phase 1: Incubation**.
 
-> Timeline assumes a project start date of **Jun 2025** 2 weeks vacation at the end of August and 2 weeks vacation at the end of December, milestone-based delivery approach with parallel task execution where feasible.
-
-### <span style="color:#124C89">Milestone-to-Phase Alignment Overview</span>
-
-### Milestone-to-Phase Alignment Overview (Adjusted for Holidays)
+### **Milestone-to-Phase Alignment Overview (Adjusted for Holidays)**
 
 | Phase                           | Weeks | Cost (€) | Start Date | End Date   |
 | ------------------------------- | ----- | -------- | ---------- | ---------- |
@@ -530,53 +445,21 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 
 ### <span style="color:#124C89">Phase 1: Incubation – Descriptive Analytics and User Interface</span>
 
-#### **Use Case 1: Natural Language Querying for Compliance**
+**Natural language querying for compliance**: Search and retrieve transaction data using plain language questions.
 
-- **Actor**: Compliance Officer
-- **Scenario**: Enters the query: “Show me all Qubic transactions over 1M QUBIC last month.”
-- **Outcome**: The system returns a structured list of transactions with filters and metadata for investigation.
+**Transaction volume analysis**: Visualize and analyze average user volumes for risk profiling.
 
-#### **Use Case 2: Transaction Volume Analysis for Risk Assessment**
+**Wallet activity overview**: Identify and rank the most active wallets over a time period.
 
-- **Actor**: Risk Manager
-- **Scenario**: Asks, “What is the average transaction volume per user this quarter?”
-- **Outcome**: A visual trend chart and summary table are generated for risk profiling.
+**Transaction pattern detection**: Detect anomalies via heatmaps and behavioral clustering.
 
-#### **Use Case 3: Wallet Activity Overview for Client Profiling**
+**Customer risk profiling**: Assess wallet risk scores based on behavioral and historical patterns.
 
-- **Actor**: Financial Advisor
-- **Scenario**: Queries, “List the top 5 active wallets this month.”
-- **Outcome**: Ranked list of wallet addresses with associated activity metrics is returned.
+**Asset tracing**: Trace the origin and flow of funds across wallet identities.
 
-#### **Use Case 4: Transaction Monitoring and Pattern Detection**
+**Regulatory reporting**: Generate exportable AML/KYT reports with key performance indicators.
 
-- **Actor**: Compliance Officer
-- **Scenario**: Investigates high-frequency transactions across ticks.
-- **Outcome**: Heatmaps and pattern recognition visuals highlight unusual clusters and flows.
-
-#### **Use Case 5: Customer Risk Profiling**
-
-- **Actor**: Risk Analyst
-- **Scenario**: Inputs a blockchain identity to assess credit eligibility.
-- **Outcome**: Risk score is returned based on transaction history and behavioral patterns.
-
-#### **Use Case 6: Asset Tracing**
-
-- **Actor**: Investigator
-- **Scenario**: Needs to track the origin of funds received by a suspicious address.
-- **Outcome**: A transaction graph shows the complete inbound tick path across identities.
-
-#### **Use Case 7: Regulatory Reporting**
-
-- **Actor**: Compliance Team
-- **Scenario**: Prepares a quarterly AML/KYT report.
-- **Outcome**: Auto-generated, exportable reports with key KPIs and customizable filters.
-
-#### **Use Case 8: Fraud Detection via Identity Mapping**
-
-- **Actor**: Fraud Investigator
-- **Scenario**: Investigates a scam alert on a specific address.
-- **Outcome**: A graph of identity relationships surfaces potential laundering or scam clusters.
+**Fraud detection via identity mapping**: Uncover suspicious clusters using identity relationship graphs.
 
 <br>
 
@@ -666,38 +549,14 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 
 ### <span style="color:#124C89">Phase 2: Use Cases</span>
 
-#### **Use Case 9: Compliance Policy Enforcement**
+**Compliance policy enforcement**: Define and monitor custom rules to automatically flag violations.
 
-- **Actor**: Compliance Officer
-- **Scenario**: Creates custom rules for transaction deviations.
-- **Outcome**: System auto-escalates violations and logs audit trails.
+**Predictive transaction risk scoring**: Flag high-risk transactions before confirmation using risk models.
 
-#### **Use Case 10: Predictive Transaction Risk Scoring**
+**Anomaly detection and early warnings**: Detect abnormal activity spikes through real-time ML alerts.
 
-- **Actor**: AML Analyst
-- **Scenario**: Assesses pre-confirmation transaction risk.
-- **Outcome**: High-risk transactions are flagged in real time.
+**Customer behavior forecasting**: Anticipate behavioral shifts in key clients to optimize engagement.
 
-#### **Use Case 11: Anomaly Detection and Early Warnings**
-
-- **Actor**: Fraud Prevention Team
-- **Scenario**: Receives alerts on unusual activity spikes.
-- **Outcome**: ML models surface early indicators of fraud.
-
-### **Use Case 12: Customer Behavior Forecasting**
-
-- **Actor**: Relationship Manager
-- **Scenario**: Tracks behavioral shifts in high-value clients.
-- **Outcome**: Predictive models inform engagement strategies.
-
-#### **Use Case 13: Money Laundering Network Analysis**
-
-- **Actor**: AML Team
-- **Scenario**: Identifies risk across wallet networks.
-- **Outcome**: Illicit clusters are mapped and scored using ML.
-
-<br>
-
-Let´s BUIDL!!
+**Money laundering network analysis**: Map and score suspicious wallet clusters using identity-aware ML.
 
 <br><br><br>
