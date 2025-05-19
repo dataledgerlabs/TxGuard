@@ -28,13 +28,13 @@
 
 # <span style="color:#198110">Executive Summary</span>
 
-The financial landscape has evolved—clients now use blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviors while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs** presents **TxGuard**, a comprehensive **"Business-to-Artificial Intelligence"** (B2AI) solution designed for traditional and non-traditional financial entities. The solution is planned to be built on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain**, ensuring compliance with AML and KYT requirements.
+The financial landscape has evolved clients now use blockchain addresses as identities alongside traditional accounts, engaging in decentralized activities that challenge conventional oversight. Can financial entities truly understand these behaviors while adhering to Anti-Money Laundering (AML) and Know Your Transfer (KYT) standards? **DataLedgerLabs** presents **TxGuard**, a comprehensive **"Business-to-Artificial Intelligence"** (B2AI) solution designed for traditional and non-traditional financial entities. The solution is planned to be built on Amazon Web Services (AWS). **TxGuard** delivers a comprehensive view of financial identities on the **Qubic blockchain**, ensuring compliance with AML and KYT requirements.
 
 TxGuard is structured as a two-phase deployment strategy that maximizes scalability, reduces risk, and ensures rapid value delivery:
 
-- Phase 1: Incubation – This phase, which is the focus of the present RFP, concentrates on data extraction, semantic curation, descriptive analytics, and natural language exposure of Qubic’s tick-level data. It is designed to provide immediate data value and enable intuitive interaction with blockchain datasets via natural language queries, without requiring a user-facing UI.
+- Phase 1 - Incubation: This phase, which is the focus of the present RFP, concentrates on data extraction, semantic curation, descriptive analytics, and natural language exposure of Qubic’s tick-level data. It is designed to provide immediate data value and enable intuitive interaction with blockchain datasets via natural language queries, without requiring a user-facing UI.
 
-- Phase 2: Acceleration – Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
+- Phase 2 - Acceleration: Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
 
 The total implementation time for Phase 1 is estimated approximately in one year, with a staffing level of approximately 1.2 Full-Time Equivalents (FTE). Budget planning for this phase follows the P10 (best case) scenario. Full cost and time allocations are detailed in the XVI. [Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
 
@@ -42,11 +42,12 @@ The total implementation time for Phase 1 is estimated approximately in one year
 
 # <span style="color:#198110">I. Pain Point Addressed</span>
 
-The rules have changed: clients are no longer defined solely by bank accounts—they now possess blockchain identities that reflect their decentralized financial activities. Financial institutions face a critical challenge in adapting their tools and processes to understand these new identities while maintaining compliance with AML and KYT regulations. This is where TxGuard steps in to support the transition by:
+The rules have changed: clients are no longer defined solely by bank accounts; they now possess blockchain identities that reflect their decentralized financial activities. Financial institutions face a critical challenge in adapting their tools and processes to understand these new identities while maintaining compliance with AML and KYT regulations. This is where TxGuard steps in to support the transition by:
 
 - Providing a comprehensive view of **financial behavior on the Qubic blockchain**.
 - Transforming complex, anonymous data into clear, **actionable insights**.
 - **Enabling secure, data-driven decisions** for fraud prevention, compliance, and market intelligence.
+- **Connecting on-chain activity with off-chain compliance frameworks**. It empowers centralized and decentralized exchanges, as well as traditional financial institutions, to track, analyze, and respond to blockchain-based financial behavior, ensuring regulatory compliance.
 
 By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures financial institutions can confidently navigate this emerging landscape while aligning with global compliance standards.
 
@@ -60,7 +61,7 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 - **Cost-Performance Harmony**: Tiered pricing models (Basic, Optimal, Comprehensive) balance technical capability with affordability, making the solution accessible.
 
-- **Natural Language Interface**: An intuitive natural language consultation feature allows users (IAs, entities, or Qubic blockchain partners) to query complex blockchain data without specialized technical knowledge—enhancing accessibility and decision-making.
+- **Natural Language Interface**: An intuitive natural language consultation feature allows users (IAs, entities, or Qubic blockchain partners) to query complex blockchain data without specialized technical knowledge, enhancing accessibility and decision-making.
 
 - **Secure Cloud Infrastructure**: Built on AWS, the solution offers enterprise-grade security, scalability, and reliability for handling sensitive financial data and high-volume blockchain analytics ([AWS Web3 Blog, 2024](https://aws.amazon.com/blogs/web3/)).
 
@@ -121,16 +122,16 @@ As previously mentioned, TxGuard’s development is strategically divided into t
 
 ## <span style="color:#124C89">Phase 1: Incubation (8–12 Months)</span>
 
-**TxGuard’s Phase 1 (Incubation)** functionality is structured around four core components—**Collection**, **Curation**, **Descriptive Analytics Engine**, and **Exposure**. These modules are designed to establish a strong foundation for Qubic tick data processing and analytics, enabling financial institutions to derive actionable insights for compliance, fraud detection, and market intelligence.
+**TxGuard’s Phase 1 (Incubation)** functionality is structured around four core components including **Collection**, **Curation**, **Descriptive Analytics Engine**, and **Exposure**. These modules are designed to establish a strong foundation for Qubic tick data processing and analytics, enabling financial institutions to derive actionable insights for compliance, fraud detection, and market intelligence.
 
 - **Collection**  
-  Ingests raw Qubic tick data—including transaction logs, tick headers, and metadata—via a Qubic Archive, and stores it for processing.
+  Ingests raw Qubic tick data, including transaction logs, tick headers, and metadata—via a Qubic Archive, and stores it for processing.
 - **Data Curation**  
   Cleans, enriches, and unifies incoming tick data formats. Applies semantic enhancements to support advanced querying and pattern recognition.
 - **Descriptive Analytics Engine**  
   Processes curated data to generate key metrics and behavioral patterns relevant to use cases such as transaction monitoring, risk analysis, and customer profiling.
 - **Exposure**  
-  Develops and configures MCPs (Multi-Component Pipelines) and intelligent agents capable of interpreting and responding to user queries in natural language. Rather than building a traditional user-facing frontend, the system will leverage the interface of the integrated Large Language Model (LLM) to enable direct querying of the platform’s database. This approach provides immediate utility while keeping the focus on core intelligence and data capabilities.
+  Develops and configures MCPs (Model Context Protocol) and intelligent agents capable of interpreting and responding to user queries in natural language. Rather than building a traditional user-facing frontend, the system will leverage the interface of the integrated Large Language Model (LLM) to enable direct querying of the platform’s database. This approach provides immediate utility while keeping the focus on core intelligence and data capabilities.
 
 These components work cohesively to deliver reliable, explainable, and structured financial intelligence from decentralized blockchain data.
 
@@ -199,7 +200,7 @@ The diagram below illustrates a simplified schematic of the overall process:
 
 # <span style="color:#198110">VII. Architecture</span>
 
-The data pipeline architecture for **TxGuard** is designed with modularity, fault tolerance, and scalability in mind—leveraging AWS services within a European Virtual Private Cloud (VPC) framework. It separates responsibilities across collection, curation, analytics, and storage to ensure efficient and secure data handling.
+The data pipeline architecture for **TxGuard** is designed with modularity, fault tolerance, and scalability in mind, leveraging AWS services within a European Virtual Private Cloud (VPC) framework. It separates responsibilities across collection, curation, analytics, and storage to ensure efficient and secure data handling.
 
 > Disclaimer: This architecture is subject to iterative refinement during development to better align with TxGuard’s design goals and stakeholder feedback, ensuring optimal performance, compliance, and usability for financial entities.
 
@@ -233,7 +234,7 @@ This architecture supports:
 
 # <span style="color:#198110">VIII. Metrics and KPIs</span>
 
-**TxGuard’s** performance and business success will be continuously evaluated using a defined set of metrics and key performance indicators (KPIs). These span system responsiveness, user satisfaction, compliance impact, and predictive capability—ensuring both technical rigor and organizational alignment across **Phase 1** and **Phase 2**.
+**TxGuard’s** performance and business success will be continuously evaluated using a defined set of metrics and key performance indicators (KPIs). These span system responsiveness, user satisfaction, compliance impact, and predictive capability, ensuring both technical rigor and organizational alignment across **Phase 1** and **Phase 2**.
 
 ### <span style="color:#124C89">1. System Performance Metrics</span>
 
@@ -253,11 +254,11 @@ This architecture supports:
 
 # <span style="color:#198110">IX. Business Model</span>
 
-TxGuard’s performance and business success will be measured through a defined set of metrics and key performance indicators (KPIs), including system responsiveness, user satisfaction, compliance impact, and predictive capabilities. These metrics ensure both technical rigor and strategic alignment across the development roadmap—spanning Phase 1 and the more commercially oriented Phase 2.
+TxGuard’s performance and business success will be measured through a defined set of metrics and key performance indicators (KPIs), including system responsiveness, user satisfaction, compliance impact, and predictive capabilities. These metrics ensure both technical rigor and strategic alignment across the development roadmap, spanning Phase 1 and the more commercially oriented Phase 2.
 
 As this RFP pertains exclusively to Phase 1, the platform will not include a user-facing UX/UI layer. Instead, interaction will be facilitated via a natural language interface powered by a Large Language Model (LLM), enabling database queries without a traditional frontend.
 
-Formal subscription tiers will be introduced in Phase 2, where a fully featured product—starting with a beta version of the Basic Tier—will be released to early users for testing and feedback.
+Formal subscription tiers will be introduced in Phase 2, where a fully featured product, starting with a beta version of the Basic Tier, will be released to early users for testing and feedback.
 
 ### <span style="color:#124C89">Subscription Tiers</span>
 
@@ -277,7 +278,7 @@ Formal subscription tiers will be introduced in Phase 2, where a fully featured 
 
 # <span style="color:#198110">X. Risk Considerations</span>
 
-The successful deployment of TxGuard—especially during Phase 1—relies on the proactive identification and mitigation of technical, operational, and regulatory risks. Below is a comprehensive risk mitigation strategy that aligns with AWS best practices and ensures the resilience of the blockchain infrastructure.
+The successful deployment of TxGuard, especially during Phase 1, relies on the proactive identification and mitigation of technical, operational, and regulatory risks. Below is a comprehensive risk mitigation strategy that aligns with AWS best practices and ensures the resilience of the blockchain infrastructure.
 
 ### <span style="color:#124C89">Backup, Recovery, and Disaster Recovery</span>
 
@@ -309,7 +310,7 @@ The successful deployment of TxGuard—especially during Phase 1—relies on the
 
 # <span style="color:#198110">XI. Competitors</span>
 
-The blockchain analytics landscape is competitive, with several established players offering AML/KYT services. However, **TxGuard** differentiates itself by targeting an underserved segment—**the Qubic ecosystem**—while focusing on accessibility, flexibility, and cost-efficiency. Potential competitors could be considered on most of the data intelligence platforms already in the market such as [chainalysis](https://www.chainalysis.com/chainalysis-kyt-certification/), [ciphertrace](https://www.mastercard.com/global/en/business/issuers/crypto.html), [pixelplex](https://pixelplex.io/know-your-transaction/)
+The blockchain analytics landscape is competitive, with several established players offering AML/KYT services. However, **TxGuard** differentiates itself by targeting an underserved segment, **the Qubic ecosystem**, while focusing on accessibility, flexibility, and cost-efficiency. Potential competitors could be considered on most of the data intelligence platforms already in the market such as [chainalysis](https://www.chainalysis.com/chainalysis-kyt-certification/), [ciphertrace](https://www.mastercard.com/global/en/business/issuers/crypto.html), [pixelplex](https://pixelplex.io/know-your-transaction/)
 
 ### <span style="color:#124C89">Key Differentiators</span>
 
@@ -325,8 +326,6 @@ The blockchain analytics landscape is competitive, with several established play
 # <span style="color:#198110">XII. Stakeholder Alignment</span>
 
 The success of **TxGuard** relies on strategic alignment among a diverse set of stakeholders. Each group plays a vital role in shaping the platform’s direction, ensuring it meets the technical, compliance, and usability expectations of financial institutions navigating Qubic’s decentralized and tick-based ecosystem.
-
----
 
 ### <span style="color:#124C89">External Stakeholders</span>
 
@@ -385,7 +384,7 @@ A clear and compelling marketing and communication strategy is essential to driv
 
 ### <span style="color:#124C89">[Andrés León](https://www.linkedin.com/in/andres-leon-bohorquez/) – Senior Backend Architect and Blockchain Educator</span>
 
-With over 20 years of experience in backend systems and distributed architectures, Andrés began coding in BASIC at age 11. He discovered cryptographic systems and digital payments in 2005 through RipplePay at the Polytechnic University, which sparked his commitment to decentralized infrastructure. A professor at CodeCrypto Academy, Andrés is a cornerstone in TxGuard’s architecture—designing scalable systems for tick data ingestion and processing.
+With over 20 years of experience in backend systems and distributed architectures, Andrés began coding in BASIC at age 11. He discovered cryptographic systems and digital payments in 2005 through RipplePay at the Polytechnic University, which sparked his commitment to decentralized infrastructure. A professor at CodeCrypto Academy, Andrés is a cornerstone in TxGuard’s architecture, designing scalable systems for tick data ingestion and processing.
 **Expertise**: Databases, backend performance, secure systems, distributed ledgers.
 
 ### <span style="color:#124C89">[Jacky Barraza](https://www.linkedin.com/in/jackybarraza/) – Senior Data Scientist</span>
@@ -583,7 +582,7 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 
 # <span style="color:#198110">XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance</span>
 
-This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**—essential for high-stakes financial operations.
+This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**, essential for high-stakes financial operations.
 
 The objective is to ensure TxGuard’s long-term relevance by introducing machine learning, anomaly detection, and behavioral modeling as native features. This forward-looking design supports compliance with global regulatory frameworks while positioning TxGuard as a next-generation blockchain intelligence layer.
 
@@ -699,10 +698,6 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 
 <br>
 
----
-
 Let´s BUIDL!!
-
----
 
 <br><br><br>
