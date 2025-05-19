@@ -289,33 +289,13 @@ The success of **TxGuard** relies on strategic alignment among a diverse set of 
 
 ### <span style="color:#124C89">External Stakeholders</span>
 
-- **Regulatory Bodies**
+- **Regulatory Bodies**: May audit TxGuard to ensure compliance with blockchain monitoring standards.
 
-  - **Impact**: May audit TxGuard to verify alignment with evolving regulatory expectations for blockchain activity monitoring.
+- **Qubic´s Identify Owners and Financial Entities (traditional and no-traditional)**: Benefit from actionable insights, transparency, and privacy-compliant services.
 
-- **Qubic´s Identify Owners and Financial Entities (traditional and no-traditional)**
+- **Technology Partners (e.g., Qubic Network)**: Contribute to performance, scalability, and real-time capabilities.
 
-  - **Impact**: Gain insights that enhance service offerings, such as lending, while benefiting from transparency and privacy compliance.
-
-- **Technology Partners (e.g., Qubic Network)**
-
-  - **Impact**: Support TxGuard’s performance, scalability, and near real-time synchronization.
-
-- **Advisory Partners (e.g., Blockchain Engineers, Compliance Experts, Cybersecurity Consultants)**
-  - **Impact**: Enhance trust, compliance coverage, and system resilience.
-
-### <span style="color:#124C89">Project Team Stakeholders</span>
-
-- **Project Team**:
-  - **Roles**:
-    - **Project Manager**: Oversees delivery timelines and scope.
-    - **Business Analysts**: Define user needs and regulatory requirements.
-    - **Software Developers**: Build and maintain core system components.
-    - **Data Scientists**: Engineer insights and models for AML/KYT analytics.
-    - **UX/UI Designers**: Ensure intuitive user interfaces are aligned with accessibility standards.
-    - **QA Testers**: Maintain system reliability through rigorous testing.
-    - **Technical Writers**: Deliver end-user documentation and training materials.
-  - **Impact**: Execute TxGuard’s roadmap by combining technical excellence with compliance-driven architecture.
+- **Advisory Partners (e.g., Blockchain Engineers, Compliance Experts, Cybersecurity Consultants)**: Strengthen trust, compliance, and system resilience.
 
 <br>
 
