@@ -9,20 +9,19 @@
 - [II. Value Proposition and Differentiation](#ii-value-proposition-and-differentiation)
 - [III. Project Overview](#iii-project-overview)
 - [IV. Global Functionality and Building Strategy](#iv-global-functionality-and-building-strategy)
-- [V. Inputs and Outputs](#v-inputs-and-outputs)
-- [VI. Requirements](#vi-requirements)
-- [VII. Architecture](#vii-architecture)
-- [VIII. Metrics and KPIs](#viii-metrics-and-kpis)
-- [IX. Business Model](#ix-business-model)
-- [X. Risk Considerations](#x-risk-considerations)
-- [XI. Competitors](#xi-competitors)
-- [XII. Stakeholder Alignment](#xii-stakeholder-alignment)
-- [XIII. Marketing and Communication Strategy](#xiii-marketing-and-communication-strategy)
-- [XIV. The Team](#xiv-the-team)
-- [XV. Budget Estimation](#xv-budget-estimation)
-- [XVI. Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
-- [XVII. Use Cases](#xvii-use-cases)
-- [XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance](#xviii-annex-phase-2-planning--predictive-capabilities-and-compliance)
+- [V. Requirements](#v-requirements)
+- [VI. Architecture](#vi-architecture)
+- [VII. Metrics and KPIs](#vii-metrics-and-kpis)
+- [VIII. Business Model](#viii-business-model)
+- [IX. Risk Considerations](#ix-risk-considerations)
+- [X. Competitors](#x-competitors)
+- [XI. Stakeholder Alignment](#xi-stakeholder-alignment)
+- [XII. Marketing and Communication Strategy](#xii-marketing-and-communication-strategy)
+- [XIII. The Team](#xiii-the-team)
+- [XIV. Budget Estimation](#xiv-budget-estimation)
+- [XV. Milestones and Estimated Timeline](#xv-milestones-and-estimated-timeline)
+- [XVI. Use Cases](#xvi-use-cases)
+- [XVII. Annex](#xvii-annex)
 
 ---
 
@@ -73,7 +72,7 @@ By bridging traditional finance with blockchain ecosystems, **TxGuard** ensures 
 
 <span style="color:#124C89">**Our Value Proposition**</span>
 
-Leveraging Qubic, which processes up to 55 million transactions per second (The Qubic Team, 2024), TxGuard positions itself as a first-mover in an underserved ecosystem. The platform offers a strategic advantage with the scalability to extend across wider blockchain networks (101blockchains.com, 2025).
+We provide both traditional and non-traditional financial institutions with a comprehensive view of a blockchain identity’s financial behavior on the Qubic network.
 
 <br>
 
@@ -147,32 +146,9 @@ The diagram below illustrates a simplified schematic of the overall process:
 
 ![OverviewTxGuard](https://github.com/user-attachments/assets/aae1f372-ead1-4fa8-afd9-a3d338b3f8a7)
 
-# <span style="color:#198110">V. Inputs and Outputs</span>
-
-**TxGuard’s** ability to deliver actionable insights relies on a clearly defined flow of inputs and outputs that processes Qubic’s tick-based blockchain data and translates it into usable intelligence. The following outlines the key data inputs and resulting outputs across both deployment phases.
-
-## <span style="color:#124C89">1. Inputs</span>
-
-### **Phase 1: Descriptive Analytics**
-
-- **Tick Data**: Qubic transaction logs, tick headers, and metadata
-- **User Queries**: Natural language prompts and structured search inputs
-- **Configuration Parameters**:
-  - Transaction history range
-  - Preferred output formats
-  - Security guardrails and filters
-
-## <span style="color:#124C89">2. Outputs</span>
-
-### **Phase 1: Descriptive Results**
-
-- **Transaction Insights**: Summaries and key metrics (e.g., transaction volume, frequency, address activity)
-- **Query Responses**: Structured results (e.g., tabular, JSON) aligned with user prompts
-- **Audit Logs**: Logs capturing user activity and access for traceability
-
 <br>
 
-# <span style="color:#198110">VI. Requirements</span>
+# <span style="color:#198110">V. Requirements</span>
 
 **TxGuard’s** functional and non-functional requirements define the core capabilities to process and analyze Qubic tick data while ensuring AML/KYT compliance. These specifications enable scalable, secure, and user-accessible blockchain intelligence for financial institutions. Requirements are categorized by functionality, performance, usability, and compliance coverage across both deployment phases.
 
@@ -194,7 +170,7 @@ The diagram below illustrates a simplified schematic of the overall process:
 
 <br>
 
-# <span style="color:#198110">VII. Architecture</span>
+# <span style="color:#198110">VI. Architecture</span>
 
 The data pipeline architecture for **TxGuard** is designed with modularity, fault tolerance, and scalability in mind, leveraging AWS services within a European Virtual Private Cloud (VPC) framework. It separates responsibilities across collection, curation, analytics, and storage to ensure efficient and secure data handling.
 
@@ -228,7 +204,7 @@ This architecture supports:
 
 <br>
 
-# <span style="color:#198110">VIII. Metrics and KPIs</span>
+# <span style="color:#198110">VII. Metrics and KPIs</span>
 
 **TxGuard’s** performance and business success will be continuously evaluated using a defined set of metrics and key performance indicators (KPIs). These span system responsiveness, user satisfaction, compliance impact, and predictive capability, ensuring both technical rigor and organizational alignment across **Phase 1** and **Phase 2**.
 
@@ -248,7 +224,7 @@ This architecture supports:
 
 <br>
 
-# <span style="color:#198110">IX. Business Model</span>
+# <span style="color:#198110">VIII. Business Model</span>
 
 TxGuard’s performance and business success will be measured through a defined set of metrics and key performance indicators (KPIs), including system responsiveness, user satisfaction, compliance impact, and predictive capabilities. These metrics ensure both technical rigor and strategic alignment across the development roadmap, spanning Phase 1 and the more commercially oriented Phase 2.
 
@@ -256,23 +232,11 @@ As this RFP pertains exclusively to Phase 1, the platform will not include a use
 
 Formal subscription tiers will be introduced in Phase 2, where a fully featured product, starting with a beta version of the Basic Tier, will be released to early users for testing and feedback.
 
-### <span style="color:#124C89">Subscription Tiers</span>
-
-- **Basic Tier**
-  - Access to core descriptive analytics
-  - Limited query capabilities
-- **Optimal Tier**
-  - Full access to all **Phase 1** features
-  - Natural language querying extended
-- **Comprehensive Tier**
-  - Includes **Phase 2** capabilities
-  - Predictive analytics and full AML/KYT compliance support
-
 > **Disclaimer**: Final pricing and packaging are subject to a full market study prior to product launch.
 
 <br>
 
-# <span style="color:#198110">X. Risk Considerations</span>
+# <span style="color:#198110">IX. Risk Considerations</span>
 
 The successful deployment of TxGuard, especially during Phase 1, relies on the proactive identification and mitigation of technical, operational, and regulatory risks. Below is a comprehensive risk mitigation strategy that aligns with AWS best practices and ensures the resilience of the blockchain infrastructure.
 
@@ -304,7 +268,7 @@ The successful deployment of TxGuard, especially during Phase 1, relies on the p
 
 <br>
 
-# <span style="color:#198110">XI. Competitors</span>
+# <span style="color:#198110">X. Competitors</span>
 
 The blockchain analytics landscape is competitive, with several established players offering AML/KYT services. However, **TxGuard** differentiates itself by targeting an underserved segment, **the Qubic ecosystem**, while focusing on accessibility, flexibility, and cost-efficiency. Potential competitors could be considered on most of the data intelligence platforms already in the market such as [chainalysis](https://www.chainalysis.com/chainalysis-kyt-certification/), [ciphertrace](https://www.mastercard.com/global/en/business/issuers/crypto.html), [pixelplex](https://pixelplex.io/know-your-transaction/)
 
@@ -319,7 +283,7 @@ The blockchain analytics landscape is competitive, with several established play
 
 <br>
 
-# <span style="color:#198110">XII. Stakeholder Alignment</span>
+# <span style="color:#198110">XI. Stakeholder Alignment</span>
 
 The success of **TxGuard** relies on strategic alignment among a diverse set of stakeholders. Each group plays a vital role in shaping the platform’s direction, ensuring it meets the technical, compliance, and usability expectations of financial institutions navigating Qubic’s decentralized and tick-based ecosystem.
 
@@ -355,7 +319,7 @@ The success of **TxGuard** relies on strategic alignment among a diverse set of 
 
 <br>
 
-# <span style="color:#198110">XIII. Marketing and Communication Strategy</span>
+# <span style="color:#198110">XII. Marketing and Communication Strategy</span>
 
 A clear and compelling marketing and communication strategy is essential to driving awareness, adoption, and credibility for TxGuard within the blockchain and financial compliance sectors. This strategy focuses on reaching stakeholders with tailored messaging across high-impact channels.
 
@@ -374,7 +338,7 @@ A clear and compelling marketing and communication strategy is essential to driv
 
 <br>
 
-# <span style="color:#198110">XIV. The Team</span>
+# <span style="color:#198110">XIII. The Team</span>
 
 **TxGuard** is built by a multidisciplinary team with deep expertise in blockchain engineering, data science, backend infrastructure, and regulatory technology. The team operates within a **horizontal structure** to promote agility, shared ownership, and innovation, ensuring the successful delivery of a scalable, secure, and regulation-ready analytics platform.
 
@@ -400,7 +364,7 @@ Javier brings a decade of experience in regulated sectors such as finance and ph
 
 <br>
 
-# <span style="color:#198110">XV. Budget Estimation</span>
+# <span style="color:#198110">XIV. Budget Estimation</span>
 
 This section outlines the estimated effort, staffing, and costs for Phase 1: Incubation of TxGuard. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The estimates account for infrastructure setup, development, deployment, documentation, and testing. The initial phase adopts a pay-per-query business model, with subscription tiers planned for Phase 2.
 
@@ -423,11 +387,11 @@ The hourly rate was set at $15.50, based on a standard 5-day work week. Using th
 
 <br>
 
-# <span style="color:#198110">XVI. Milestones and Estimated Timeline</span>
+# <span style="color:#198110">XV. Milestones and Estimated Timeline</span>
 
 The following timeline outlines key project milestones and the prices estimation, covering the full scope of **Phase 1: Incubation**.
 
-### **Milestone-to-Phase Alignment Overview (Adjusted for Holidays)**
+**Milestone-to-Phase Alignment Overview (Adjusted for Holidays)**
 
 | Phase                           | Weeks | Cost (€) | Start Date | End Date   |
 | ------------------------------- | ----- | -------- | ---------- | ---------- |
@@ -439,11 +403,9 @@ The following timeline outlines key project milestones and the prices estimation
 
 <br>
 
-# <span style="color:#198110">XVII. Use Cases</span>
+# <span style="color:#198110">XVI. Use Cases</span>
 
 The following use cases illustrate how **TxGuard** will serve key actors across the financial compliance lifecycle. Each use case aligns with the platform’s **Phase 1** (descriptive analytics) capabilities, offering a practical view of how blockchain insights can improve operational decision-making and regulatory compliance.
-
-### <span style="color:#124C89">Phase 1: Incubation – Descriptive Analytics and User Interface</span>
 
 **Natural language querying for compliance**: Search and retrieve transaction data using plain language questions.
 
@@ -463,19 +425,40 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 
 <br>
 
-# <span style="color:#198110">XVIII. Annex: Phase 2 Planning – Predictive Capabilities and Compliance</span>
+# <span style="color:#198110">XVII. Annex
+
+# <span style="color:#198110">Inputs and Outputs Phase 1: Incubation</span>
+
+**TxGuard’s** ability to deliver actionable insights relies on a clearly defined flow of inputs and outputs that processes Qubic’s tick-based blockchain data and translates it into usable intelligence. The following outlines the key data inputs and resulting outputs across both deployment phases.
+
+## <span style="color:#124C89">1. Inputs</span>
+
+- **Tick Data**: Qubic transaction logs, tick headers, and metadata
+- **User Queries**: Natural language prompts and structured search inputs
+- **Configuration Parameters**:
+  - Transaction history range
+  - Preferred output formats
+  - Security guardrails and filters
+
+## <span style="color:#124C89">2. Outputs</span>
+
+- **Transaction Insights**: Summaries and key metrics (e.g., transaction volume, frequency, address activity)
+- **Query Responses**: Structured results (e.g., tabular, JSON) aligned with user prompts
+- **Audit Logs**: Logs capturing user activity and access for traceability
+
+## <span style="color:#124C89"> Phase 2 Planning – Predictive Capabilities and Compliance</span>
 
 This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**, essential for high-stakes financial operations.
 
 The objective is to ensure TxGuard’s long-term relevance by introducing machine learning, anomaly detection, and behavioral modeling as native features. This forward-looking design supports compliance with global regulatory frameworks while positioning TxGuard as a next-generation blockchain intelligence layer.
 
-### <span style="color:#124C89">1. Scope</span>
+### <span style="color:#124C89">Scope</span>
 
 - **User Management & Access Control for Phase 2**: Leverage Qubic address-based identity with role-based permissions.
 - **Future-Proofing for Phase 2**: Design architecture to support predictive analytics scalability.
 - **Compliance Features for Phase 2**: Plan for AML/KYT checks and reporting capabilities.
 
-### <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
+#### <span style="color:#124C89">Phase 2: Acceleration (Predictive Analytics)</span>
 
 **Objective**: Augment **TxGuard** with predictive analytics to enhance compliance workflows and risk management.
 
@@ -485,7 +468,7 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - Integrate AML/KYT compliance automation features.
 - Validate the accuracy and performance of insights generated by the models.
 
-### <span style="color:#124C89">Inputs</span>
+#### <span style="color:#124C89">Inputs</span>
 
 - **Client Data**: Identity-linked Know Your Customer (KYC) information.
 - **Regulatory Rules**: AML/KYT standards, thresholds, and custom flags.
@@ -512,7 +495,7 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **NFR8**: WCAG 2.1-compliant interface for non-technical users.
 - **NFR9**: End-to-end encryption; PCI DSS and ISO 27001 compliance.
 
-### <span style="color:#198110">VIII. Metrics and KPIs</span>
+### <span style="color:#198110">Metrics and KPIs</span>
 
 #### 1. System Performance Metrics
 
@@ -546,6 +529,18 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **Feature Velocity**: ≥2 major features/year.
 - **Model Accuracy Gain**: +5% per quarter.
 - **User Feedback Implementation**: ≥25% of viable feedback delivered within 6 months.
+
+### <span style="color:#124C89">Business Model Phase 2: Subscription Tiers</span>
+
+- **Basic Tier**
+  - Access to core descriptive analytics
+  - Limited query capabilities
+- **Optimal Tier**
+  - Full access to all **Phase 1** features
+  - Natural language querying extended
+- **Comprehensive Tier**
+  - Includes **Phase 2** capabilities
+  - Predictive analytics and full AML/KYT compliance support
 
 ### <span style="color:#124C89">Phase 2: Use Cases</span>
 
