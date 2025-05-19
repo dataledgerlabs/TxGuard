@@ -19,9 +19,8 @@
 - [XII. Marketing and Communication Strategy](#xii-marketing-and-communication-strategy)
 - [XIII. The Team](#xiii-the-team)
 - [XIV. Budget Estimation](#xiv-budget-estimation)
-- [XV. Milestones and Estimated Timeline](#xv-milestones-and-estimated-timeline)
-- [XVI. Use Cases](#xvi-use-cases)
-- [XVII. Annex](#xvii-annex)
+- [XV. Use Cases](#xv-use-cases)
+- [XVI. Annex](#xvi-annex)
 
 ---
 
@@ -354,36 +353,22 @@ TxGuard’s core team consists of four members with a combined capacity of 1.2 F
 
 The hourly rate was set at $15.50, based on a standard 5-day work week. Using this rate, the total project cost is estimated at approximately $25,000. It is important to note that the Iteration Phase with the Qubic Team, although included in the total project timeline of 37 weeks, is excluded from the resource cost calculation. This additional 4-week period is reserved exclusively for collaborative review, feedback, and formal approval with Qubic stakeholders, ensuring strategic alignment without incurring further development costs.
 
-<br>
-
-| Phase / Task                    | Subtasks                                                                  | P10 Time (weeks) | P10 Cost (€) |
-| ------------------------------- | ------------------------------------------------------------------------- | ---------------- | ------------ |
-| 0. RFP Preparation              | Draft RFP, project scoping, repository setup                              | 1                | 5,000        |
-| 1. Collection                   | Node validation, service development (Node.js), PostgreSQL setup, testing | 9                | 5,625        |
-| 2. Curation                     | Schema audit, service development (Node.js/Go/Rust), Semantide DB setup   | 9                | 5,625        |
-| 3. Descriptive Analytics Engine | KPI identification, semantic modeling, metric validation                  | 6                | 3,750        |
-| 4. Exposure                     | NLP agent setup, prompt engineering, user query testing                   | 8                | 5,000        |
-| **Total (excluding reviews)**   |                                                                           | **33**           | **25,000**   |
+The following timeline outlines key **project milestones** and the prices estimation, covering the full scope of **Phase 1: Incubation**.
 
 <br>
 
-# <span style="color:#198110">XV. Milestones and Estimated Timeline</span>
-
-The following timeline outlines key project milestones and the prices estimation, covering the full scope of **Phase 1: Incubation**.
-
-**Milestone-to-Phase Alignment Overview (Adjusted for Holidays)**
-
-| Phase                           | Weeks | Cost (€) | Start Date | End Date   |
-| ------------------------------- | ----- | -------- | ---------- | ---------- |
-| 0. RFP Preparation              | 1     | 5,000    | 2025-06-02 | 2025-06-07 |
-| 1. Collection                   | 9     | 5,625    | 2025-06-07 | 2025-08-09 |
-| 2. Curation                     | 9     | 5,625    | 2025-08-09 | 2025-10-25 |
-| 3. Descriptive Analytics Engine | 6     | 3,750    | 2025-10-25 | 2025-12-06 |
-| 4. Exposure                     | 8     | 5,000    | 2025-12-06 | 2026-02-14 |
+| Phase / Task                    | Subtasks                                                                  | Time (weeks) | Cost (€)   | Start Date | End Date   |
+| ------------------------------- | ------------------------------------------------------------------------- | ------------ | ---------- | ---------- | ---------- |
+| 0. RFP Preparation              | Draft RFP, project scoping, repository setup                              | 1            | 5,000      | 06/02/2025 | 06/07/2025 |
+| 1. Collection                   | Node validation, service development (Node.js), PostgreSQL setup, testing | 9            | 5,625      | 06/07/2025 | 08/09/2025 |
+| 2. Curation                     | Schema audit, service development (Node.js/Go/Rust), Semantide DB setup   | 9            | 5,625      | 08/09/2025 | 10/25/2025 |
+| 3. Descriptive Analytics Engine | KPI identification, semantic modeling, metric validation                  | 6            | 3,750      | 10/25/2025 | 12/06/2025 |
+| 4. Exposure                     | NLP agent setup, prompt engineering, user query testing                   | 8            | 5,000      | 12/06/2025 | 02/14/2026 |
+| **Total (excluding reviews)**   |                                                                           | **33**       | **25,000** |            |            |
 
 <br>
 
-# <span style="color:#198110">XVI. Use Cases</span>
+# <span style="color:#198110">XV. Use Cases</span>
 
 The following use cases illustrate how **TxGuard** will serve key actors across the financial compliance lifecycle. Each use case aligns with the platform’s **Phase 1** (descriptive analytics) capabilities, offering a practical view of how blockchain insights can improve operational decision-making and regulatory compliance.
 
@@ -405,7 +390,7 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 
 <br>
 
-# <span style="color:#198110">XVII. Annex
+# <span style="color:#198110">XVI. Annex
 
 # <span style="color:#198110">Inputs and Outputs Phase 1: Incubation</span>
 
