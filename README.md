@@ -34,7 +34,7 @@ TxGuard is structured as a two-phase deployment strategy that maximizes scalabil
 
 - Phase 2 - Acceleration: Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
 
-The total implementation time for Phase 1 is estimated approximately in one year, with a staffing level of approximately 1.2 Full-Time Equivalents (FTE). Budget planning for this phase follows the P10 (best case) scenario. Full cost and time allocations are detailed in the XVI. [Milestones and Estimated Timeline](#xvi-milestones-and-estimated-timeline)
+Phase 1 implementation of TxGuard is projected to span 41 weeks, with a core team of 1.2 Full-Time Equivalents (FTEs) across four members. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The budget, designed for 33 weeks of active development, totals approximately €25,000 and aligns with the scope of the first-place submission for the [Madrid Hackathon MAD2025](https://qubic.org/madrid-hackathon). Detailed cost and time allocations are provided in Section [Budget Estimation](#xiv-budget-estimation).
 
 <br>
 
