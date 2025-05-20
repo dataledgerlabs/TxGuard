@@ -372,31 +372,31 @@ The following timeline outlines key **project milestones** and the prices estima
 
 The following use cases illustrate how **TxGuard** will serve key actors across the financial compliance lifecycle. Each use case aligns with the platform’s **Phase 1** (descriptive analytics) capabilities, offering a practical view of how blockchain insights can improve operational decision-making and regulatory compliance.
 
-**Natural language querying for compliance**: Search and retrieve transaction data using plain language questions.
+- **Natural language querying for compliance**: Search and retrieve transaction data using plain language questions.
 
-**Transaction volume analysis**: Visualize and analyze average user volumes for risk profiling.
+- **Transaction volume analysis**: Visualize and analyze average user volumes for risk profiling.
 
-**Wallet activity overview**: Identify and rank the most active wallets over a time period.
+- **Wallet activity overview**: Identify and rank the most active wallets over a time period.
 
-**Transaction pattern detection**: Detect anomalies via heatmaps and behavioral clustering.
+- **Transaction pattern detection**: Detect anomalies via heatmaps and behavioral clustering.
 
-**Customer risk profiling**: Assess wallet risk scores based on behavioral and historical patterns.
+- **Customer risk profiling**: Assess wallet risk scores based on behavioral and historical patterns.
 
-**Asset tracing**: Trace the origin and flow of funds across wallet identities.
+- **Asset tracing**: Trace the origin and flow of funds across wallet identities.
 
-**Regulatory reporting**: Generate exportable AML/KYT reports with key performance indicators.
+- **Regulatory reporting**: Generate exportable AML/KYT reports with key performance indicators.
 
-**Fraud detection via identity mapping**: Uncover suspicious clusters using identity relationship graphs.
+- **Fraud detection via identity mapping**: Uncover suspicious clusters using identity relationship graphs.
 
 <br>
 
 # <span style="color:#198110">XVI. Annex
 
-# <span style="color:#198110">Inputs and Outputs Phase 1: Incubation</span>
+### <span style="color:#198110">Inputs and Outputs Phase 1: Incubation</span>
 
 **TxGuard’s** ability to deliver actionable insights relies on a clearly defined flow of inputs and outputs that processes Qubic’s tick-based blockchain data and translates it into usable intelligence. The following outlines the key data inputs and resulting outputs across both deployment phases.
 
-## <span style="color:#124C89">1. Inputs</span>
+#### <span style="color:#124C89">1. Inputs</span>
 
 - **Tick Data**: Qubic transaction logs, tick headers, and metadata
 - **User Queries**: Natural language prompts and structured search inputs
@@ -405,19 +405,19 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
   - Preferred output formats
   - Security guardrails and filters
 
-## <span style="color:#124C89">2. Outputs</span>
+#### <span style="color:#124C89">2. Outputs</span>
 
 - **Transaction Insights**: Summaries and key metrics (e.g., transaction volume, frequency, address activity)
 - **Query Responses**: Structured results (e.g., tabular, JSON) aligned with user prompts
 - **Audit Logs**: Logs capturing user activity and access for traceability
 
-## <span style="color:#124C89"> Phase 2 Planning – Predictive Capabilities and Compliance</span>
+### <span style="color:#124C89"> Phase 2 Planning – Predictive Capabilities and Compliance</span>
 
 This annex outlines the projected scope and technical expectations for **Phase 2: Acceleration** of the **TxGuard** platform. While the current proposal covers the foundational elements of Phase 1, the second phase is designed to extend the platform’s capabilities with **predictive analytics**, **compliance automation**, and **risk intelligence**, essential for high-stakes financial operations.
 
 The objective is to ensure TxGuard’s long-term relevance by introducing machine learning, anomaly detection, and behavioral modeling as native features. This forward-looking design supports compliance with global regulatory frameworks while positioning TxGuard as a next-generation blockchain intelligence layer.
 
-### <span style="color:#124C89">Scope</span>
+#### <span style="color:#124C89">Scope</span>
 
 - **User Management & Access Control for Phase 2**: Leverage Qubic address-based identity with role-based permissions.
 - **Future-Proofing for Phase 2**: Design architecture to support predictive analytics scalability.
@@ -438,7 +438,7 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **Client Data**: Identity-linked Know Your Customer (KYC) information.
 - **Regulatory Rules**: AML/KYT standards, thresholds, and custom flags.
 
-### <span style="color:#124C89">Outputs</span>
+#### <span style="color:#124C89">Outputs</span>
 
 - **Risk Scores**: Near real-time assessments of identity and transaction risk levels.
 - **Anomaly Alerts**: Notifications driven by machine learning for suspicious patterns.
@@ -467,11 +467,11 @@ The objective is to ensure TxGuard’s long-term relevance by introducing machin
 - **Query Response Time**: <10s for 85% of NLP queries.
 - **Uptime**: ≥90% (≤3 hours downtime annually).
 
-### 2. User Adoption and Satisfaction
+#### 2. User Adoption and Satisfaction
 
 - **Adoption Rate**: ≥80% within 6 months of deployment.
 
-### 3. Compliance and Risk Management
+#### 3. Compliance and Risk Management
 
 - **Alert Accuracy**: ≥70%.
 - **Risk Detection Speed**: <1 minute.
