@@ -30,11 +30,11 @@ The financial landscape has evolved clients now use blockchain addresses as iden
 
 TxGuard is structured as a two-phase deployment strategy that maximizes scalability, reduces risk, and ensures rapid value delivery:
 
-- Phase 1 - Incubation: This phase, which is the focus of the present RFP, concentrates on data extraction, semantic curation, descriptive analytics, and natural language exposure of Qubic’s tick-level data. It is designed to provide immediate data value and enable intuitive interaction with blockchain datasets via natural language queries, without requiring a user-facing UI.
+- Phase 1 - Incubation: This phase, which is the focus of the present Request for Proposal (RFP), concentrates on data extraction, semantic curation, descriptive analytics, and natural language exposure of Qubic’s tick-level data. It is designed to provide immediate data value and enable intuitive interaction with blockchain datasets via natural language queries, without requiring a user-facing UI.
 
 - Phase 2 - Acceleration: Planned for future execution, this phase will integrate advanced predictive analytics, anomaly detection, and behavioral insights. It aims to elevate compliance efforts and decision-making through machine learning capabilities. A preliminary outline of Phase 2 is included in the annex.
 
-Phase 1 implementation of TxGuard is projected to span 41 weeks, with a core team of 1.2 Full-Time Equivalents (FTEs) across four members. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The budget, designed for 33 weeks of active development, totals approximately €25,000 and aligns with the scope of the first-place submission for the [Madrid Hackathon MAD2025](https://qubic.org/madrid-hackathon). Detailed cost and time allocations are provided in Section [Budget Estimation](#xiv-budget-estimation).
+Phase 1 implementation of TxGuard is projected to span 37 weeks, with a core team of 1.2 Full-Time Equivalents (FTEs) across four members. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The budget totals €25,000 and aligns with the scope of the first-place submission for the [Madrid Hackathon MAD2025](https://qubic.org/madrid-hackathon). Detailed cost and time allocations are provided in Section [Budget Estimation](#xiv-budget-estimation).
 
 <br>
 
@@ -173,7 +173,7 @@ The diagram below illustrates a simplified schematic of the overall process:
 
 The data pipeline architecture for **TxGuard** is designed with modularity, fault tolerance, and scalability in mind, leveraging AWS services within a European Virtual Private Cloud (VPC) framework. It separates responsibilities across collection, curation, analytics, and storage to ensure efficient and secure data handling.
 
-> Disclaimer: This architecture is subject to iterative refinement during development to better align with TxGuard’s design goals and stakeholder feedback, ensuring optimal performance, compliance, and usability for financial entities.
+> Disclaimer: This architecture is subject to iterative refinement during development consistent with the goals of the first-place submission TxGuard’s design goals and stakeholder feedback, ensuring optimal performance, compliance, and usability for financial entities.
 
 ## <span style="color:#124C89">Core Architectural Layers</span>
 
@@ -345,13 +345,13 @@ Javier brings a decade of experience in regulated sectors such as finance and ph
 
 # <span style="color:#198110">XIV. Budget Estimation</span>
 
-This section outlines the estimated effort, staffing, and costs for Phase 1: Incubation of TxGuard. It covers Request for Proposal (RFP) preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The estimates account for infrastructure setup, development, deployment, documentation, and testing. The initial phase adopts a pay-per-query business model, with subscription tiers planned for Phase 2.
+This section outlines the estimated effort, staffing, and costs for Phase 1 of TxGuard. It covers RFP preparation and four core stages: Collection, Curation, Descriptive Analytics Engine, and Exposure. The estimates account for infrastructure setup, development, deployment, documentation, and testing. The initial phase adopts a pay-per-query business model, with subscription tiers planned for Phase 2.
 
 ### **Staffing and FTE Allocation**
 
-TxGuard’s core team consists of four members with a combined capacity of 1.2 Full-Time Equivalents (FTEs), where one FTE represents a person working full-time (8 hours/day, 5 days/week). The team includes one member at 60% capacity and three at 20% each. This lean structure enables parallel development and cross-functional collaboration in architecture, data science, engineering, and compliance, optimizing resources for the 33 weeks project timeline.
+TxGuard’s core team consists of four members with a combined capacity of 1.2 Full-Time Equivalents (FTEs), where one FTE represents a person working full-time (8 hours/day, 5 days/week). The team includes one member at 60% capacity and three at 20% each. This lean team enables parallel development across architecture, data science, engineering, and compliance, optimizing resources for the 33 weeks project timeline.
 
-The hourly rate was set at $15.50, based on a standard 5-day work week. Using this rate, the total project cost is estimated at approximately $25,000. It is important to note that the Iteration Phase with the Qubic Team, although included in the total project timeline of 37 weeks, is excluded from the resource cost calculation. This additional 4-week period is reserved exclusively for collaborative review, feedback, and formal approval with Qubic stakeholders, ensuring strategic alignment without incurring further development costs.
+The hourly rate was set at $15.50, based on a standard 5-day work week. Using this rate, the total project cost is estimated at approximately $25,000. It is important to highlight that the one-week iteration with the Qubic Team at the end of each Phase 1 milestone is included in the 37-week project timeline, but not in the resource cost calculation. These four additional weeks are reserved exclusively for collaborative reviews, feedback, and formal approval with Qubic stakeholders—ensuring strategic alignment without adding development costs.
 
 The following timeline outlines key **project milestones** and the prices estimation, covering the full scope of **Phase 1: Incubation**.
 
@@ -361,7 +361,7 @@ The following timeline outlines key **project milestones** and the prices estima
 | ------------------------------- | ------------------------------------------------------------------------- | ------------ | ---------- | ---------- | ---------- |
 | 0. RFP Preparation              | Draft RFP, project scoping, repository setup                              | 1            | 5,000      | 06/02/2025 | 06/07/2025 |
 | 1. Collection                   | Node validation, service development (Node.js), PostgreSQL setup, testing | 9            | 5,625      | 06/07/2025 | 08/09/2025 |
-| 2. Curation                     | Schema audit, service development (Node.js/Go/Rust), Semantide DB setup   | 9            | 5,625      | 08/09/2025 | 10/25/2025 |
+| 2. Curation                     | Schema audit, service development (Node.js/Go/Rust), Semantic DB setup    | 9            | 5,625      | 08/09/2025 | 10/25/2025 |
 | 3. Descriptive Analytics Engine | KPI identification, semantic modeling, metric validation                  | 6            | 3,750      | 10/25/2025 | 12/06/2025 |
 | 4. Exposure                     | NLP agent setup, prompt engineering, user query testing                   | 8            | 5,000      | 12/06/2025 | 02/14/2026 |
 | **Total (excluding reviews)**   |                                                                           | **33**       | **25,000** |            |            |
@@ -389,6 +389,8 @@ The following use cases illustrate how **TxGuard** will serve key actors across 
 - **Fraud detection via identity mapping**: Uncover suspicious clusters using identity relationship graphs.
 
 <br>
+
+---
 
 # <span style="color:#198110">XVI. Annex
 
